@@ -3079,3 +3079,105 @@ mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-
 
 
 
+Performing C SOURCE FILE Test OPT_Wno_long_long succeeded with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_0b8de/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0b8de.dir\build.make CMakeFiles/cmTC_0b8de.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b8de.dir/src.c.obj
+C:\MinGW\bin\gcc.exe -DOPT_Wno_long_long  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes    -Wno-long-long -o CMakeFiles\cmTC_0b8de.dir\src.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_0b8de.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0b8de.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0b8de.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0b8de.dir/objects.a @CMakeFiles\cmTC_0b8de.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes  -Wl,--whole-archive CMakeFiles\cmTC_0b8de.dir/objects.a -Wl,--no-whole-archive -o cmTC_0b8de.exe -Wl,--out-implib,libcmTC_0b8de.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0b8de.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_multichar succeeded with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_13892/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_13892.dir\build.make CMakeFiles/cmTC_13892.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13892.dir/src.c.obj
+C:\MinGW\bin\gcc.exe -DOPT_Wno_multichar  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal    -Wno-multichar -o CMakeFiles\cmTC_13892.dir\src.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_13892.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_13892.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_13892.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_13892.dir/objects.a @CMakeFiles\cmTC_13892.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal  -Wl,--whole-archive CMakeFiles\cmTC_13892.dir/objects.a -Wl,--no-whole-archive -o cmTC_13892.exe -Wl,--out-implib,libcmTC_13892.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_13892.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_format_nonliteral succeeded with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2b66d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2b66d.dir\build.make CMakeFiles/cmTC_2b66d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b66d.dir/src.c.obj
+C:\MinGW\bin\gcc.exe -DOPT_Wno_format_nonliteral  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef    -Wno-format-nonliteral -o CMakeFiles\cmTC_2b66d.dir\src.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_2b66d.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2b66d.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2b66d.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_2b66d.dir/objects.a @CMakeFiles\cmTC_2b66d.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef  -Wl,--whole-archive CMakeFiles\cmTC_2b66d.dir/objects.a -Wl,--no-whole-archive -o cmTC_2b66d.exe -Wl,--out-implib,libcmTC_2b66d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2b66d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_sign_conversion succeeded with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b4a5b/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b4a5b.dir\build.make CMakeFiles/cmTC_b4a5b.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4a5b.dir/src.c.obj
+C:\MinGW\bin\gcc.exe -DOPT_Wno_sign_conversion  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion    -Wno-sign-conversion -o CMakeFiles\cmTC_b4a5b.dir\src.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_b4a5b.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b4a5b.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b4a5b.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_b4a5b.dir/objects.a @CMakeFiles\cmTC_b4a5b.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion  -Wl,--whole-archive CMakeFiles\cmTC_b4a5b.dir/objects.a -Wl,--no-whole-archive -o cmTC_b4a5b.exe -Wl,--out-implib,libcmTC_b4a5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b4a5b.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_system_headers succeeded with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4e6a0/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4e6a0.dir\build.make CMakeFiles/cmTC_4e6a0.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e6a0.dir/src.c.obj
+C:\MinGW\bin\gcc.exe -DOPT_Wno_system_headers  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion    -Wno-system-headers -o CMakeFiles\cmTC_4e6a0.dir\src.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_4e6a0.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4e6a0.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4e6a0.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4e6a0.dir/objects.a @CMakeFiles\cmTC_4e6a0.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion  -Wl,--whole-archive CMakeFiles\cmTC_4e6a0.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e6a0.exe -Wl,--out-implib,libcmTC_4e6a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4e6a0.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test OPT_Wno_pedantic_ms_format succeeded with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_47180/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_47180.dir\build.make CMakeFiles/cmTC_47180.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47180.dir/src.c.obj
+C:\MinGW\bin\gcc.exe -DOPT_Wno_pedantic_ms_format  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers    -Wno-pedantic-ms-format -o CMakeFiles\cmTC_47180.dir\src.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_47180.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_47180.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_47180.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_47180.dir/objects.a @CMakeFiles\cmTC_47180.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers  -Wl,--whole-archive CMakeFiles\cmTC_47180.dir/objects.a -Wl,--no-whole-archive -o cmTC_47180.exe -Wl,--out-implib,libcmTC_47180.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_47180.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

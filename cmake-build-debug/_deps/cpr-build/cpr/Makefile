@@ -198,30 +198,6 @@ auth.cpp.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.s
 .PHONY : auth.cpp.s
 
-bearer.obj: bearer.cpp.obj
-.PHONY : bearer.obj
-
-# target to build an object file
-bearer.cpp.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj
-.PHONY : bearer.cpp.obj
-
-bearer.i: bearer.cpp.i
-.PHONY : bearer.i
-
-# target to preprocess a source file
-bearer.cpp.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.i
-.PHONY : bearer.cpp.i
-
-bearer.s: bearer.cpp.s
-.PHONY : bearer.s
-
-# target to generate assembly for a file
-bearer.cpp.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.s
-.PHONY : bearer.cpp.s
-
 cookies.obj: cookies.cpp.obj
 .PHONY : cookies.obj
 
@@ -270,30 +246,6 @@ cprtypes.cpp.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.s
 .PHONY : cprtypes.cpp.s
 
-curl_container.obj: curl_container.cpp.obj
-.PHONY : curl_container.obj
-
-# target to build an object file
-curl_container.cpp.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj
-.PHONY : curl_container.cpp.obj
-
-curl_container.i: curl_container.cpp.i
-.PHONY : curl_container.i
-
-# target to preprocess a source file
-curl_container.cpp.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.i
-.PHONY : curl_container.cpp.i
-
-curl_container.s: curl_container.cpp.s
-.PHONY : curl_container.s
-
-# target to generate assembly for a file
-curl_container.cpp.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.s
-.PHONY : curl_container.cpp.s
-
 curlholder.obj: curlholder.cpp.obj
 .PHONY : curlholder.obj
 
@@ -317,6 +269,30 @@ curlholder.s: curlholder.cpp.s
 curlholder.cpp.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.s
 .PHONY : curlholder.cpp.s
+
+digest.obj: digest.cpp.obj
+.PHONY : digest.obj
+
+# target to build an object file
+digest.cpp.obj:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj
+.PHONY : digest.cpp.obj
+
+digest.i: digest.cpp.i
+.PHONY : digest.i
+
+# target to preprocess a source file
+digest.cpp.i:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.i
+.PHONY : digest.cpp.i
+
+digest.s: digest.cpp.s
+.PHONY : digest.s
+
+# target to generate assembly for a file
+digest.cpp.s:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.s
+.PHONY : digest.cpp.s
 
 error.obj: error.cpp.obj
 .PHONY : error.obj
@@ -365,6 +341,30 @@ multipart.s: multipart.cpp.s
 multipart.cpp.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.s
 .PHONY : multipart.cpp.s
+
+ntlm.obj: ntlm.cpp.obj
+.PHONY : ntlm.obj
+
+# target to build an object file
+ntlm.cpp.obj:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj
+.PHONY : ntlm.cpp.obj
+
+ntlm.i: ntlm.cpp.i
+.PHONY : ntlm.i
+
+# target to preprocess a source file
+ntlm.cpp.i:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.i
+.PHONY : ntlm.cpp.i
+
+ntlm.s: ntlm.cpp.s
+.PHONY : ntlm.s
+
+# target to generate assembly for a file
+ntlm.cpp.s:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.s
+.PHONY : ntlm.cpp.s
 
 parameters.obj: parameters.cpp.obj
 .PHONY : parameters.obj
@@ -437,30 +437,6 @@ proxies.s: proxies.cpp.s
 proxies.cpp.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.s
 .PHONY : proxies.cpp.s
-
-response.obj: response.cpp.obj
-.PHONY : response.obj
-
-# target to build an object file
-response.cpp.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj
-.PHONY : response.cpp.obj
-
-response.i: response.cpp.i
-.PHONY : response.i
-
-# target to preprocess a source file
-response.cpp.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.i
-.PHONY : response.cpp.i
-
-response.s: response.cpp.s
-.PHONY : response.s
-
-# target to generate assembly for a file
-response.cpp.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.s
-.PHONY : response.cpp.s
 
 session.obj: session.cpp.obj
 .PHONY : session.obj
@@ -574,27 +550,27 @@ help:
 	@echo ... auth.obj
 	@echo ... auth.i
 	@echo ... auth.s
-	@echo ... bearer.obj
-	@echo ... bearer.i
-	@echo ... bearer.s
 	@echo ... cookies.obj
 	@echo ... cookies.i
 	@echo ... cookies.s
 	@echo ... cprtypes.obj
 	@echo ... cprtypes.i
 	@echo ... cprtypes.s
-	@echo ... curl_container.obj
-	@echo ... curl_container.i
-	@echo ... curl_container.s
 	@echo ... curlholder.obj
 	@echo ... curlholder.i
 	@echo ... curlholder.s
+	@echo ... digest.obj
+	@echo ... digest.i
+	@echo ... digest.s
 	@echo ... error.obj
 	@echo ... error.i
 	@echo ... error.s
 	@echo ... multipart.obj
 	@echo ... multipart.i
 	@echo ... multipart.s
+	@echo ... ntlm.obj
+	@echo ... ntlm.i
+	@echo ... ntlm.s
 	@echo ... parameters.obj
 	@echo ... parameters.i
 	@echo ... parameters.s
@@ -604,9 +580,6 @@ help:
 	@echo ... proxies.obj
 	@echo ... proxies.i
 	@echo ... proxies.s
-	@echo ... response.obj
-	@echo ... response.i
-	@echo ... response.s
 	@echo ... session.obj
 	@echo ... session.i
 	@echo ... session.s

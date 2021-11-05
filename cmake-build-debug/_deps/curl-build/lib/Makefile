@@ -294,30 +294,6 @@ base64.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.s
 .PHONY : base64.c.s
 
-c-hyper.obj: c-hyper.c.obj
-.PHONY : c-hyper.obj
-
-# target to build an object file
-c-hyper.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/c-hyper.c.obj
-.PHONY : c-hyper.c.obj
-
-c-hyper.i: c-hyper.c.i
-.PHONY : c-hyper.i
-
-# target to preprocess a source file
-c-hyper.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/c-hyper.c.i
-.PHONY : c-hyper.c.i
-
-c-hyper.s: c-hyper.c.s
-.PHONY : c-hyper.s
-
-# target to generate assembly for a file
-c-hyper.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/c-hyper.c.s
-.PHONY : c-hyper.c.s
-
 conncache.obj: conncache.c.obj
 .PHONY : conncache.obj
 
@@ -918,30 +894,6 @@ dotdot.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/dotdot.c.s
 .PHONY : dotdot.c.s
 
-dynbuf.obj: dynbuf.c.obj
-.PHONY : dynbuf.obj
-
-# target to build an object file
-dynbuf.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/dynbuf.c.obj
-.PHONY : dynbuf.c.obj
-
-dynbuf.i: dynbuf.c.i
-.PHONY : dynbuf.i
-
-# target to preprocess a source file
-dynbuf.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/dynbuf.c.i
-.PHONY : dynbuf.c.i
-
-dynbuf.s: dynbuf.c.s
-.PHONY : dynbuf.s
-
-# target to generate assembly for a file
-dynbuf.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/dynbuf.c.s
-.PHONY : dynbuf.c.s
-
 easy.obj: easy.c.obj
 .PHONY : easy.obj
 
@@ -965,54 +917,6 @@ easy.s: easy.c.s
 easy.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.s
 .PHONY : easy.c.s
-
-easygetopt.obj: easygetopt.c.obj
-.PHONY : easygetopt.obj
-
-# target to build an object file
-easygetopt.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easygetopt.c.obj
-.PHONY : easygetopt.c.obj
-
-easygetopt.i: easygetopt.c.i
-.PHONY : easygetopt.i
-
-# target to preprocess a source file
-easygetopt.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easygetopt.c.i
-.PHONY : easygetopt.c.i
-
-easygetopt.s: easygetopt.c.s
-.PHONY : easygetopt.s
-
-# target to generate assembly for a file
-easygetopt.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easygetopt.c.s
-.PHONY : easygetopt.c.s
-
-easyoptions.obj: easyoptions.c.obj
-.PHONY : easyoptions.obj
-
-# target to build an object file
-easyoptions.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easyoptions.c.obj
-.PHONY : easyoptions.c.obj
-
-easyoptions.i: easyoptions.c.i
-.PHONY : easyoptions.i
-
-# target to preprocess a source file
-easyoptions.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easyoptions.c.i
-.PHONY : easyoptions.c.i
-
-easyoptions.s: easyoptions.c.s
-.PHONY : easyoptions.s
-
-# target to generate assembly for a file
-easyoptions.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/easyoptions.c.s
-.PHONY : easyoptions.c.s
 
 escape.obj: escape.c.obj
 .PHONY : escape.obj
@@ -1422,30 +1326,6 @@ hostsyn.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.s
 .PHONY : hostsyn.c.s
 
-hsts.obj: hsts.c.obj
-.PHONY : hsts.obj
-
-# target to build an object file
-hsts.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/hsts.c.obj
-.PHONY : hsts.c.obj
-
-hsts.i: hsts.c.i
-.PHONY : hsts.i
-
-# target to preprocess a source file
-hsts.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/hsts.c.i
-.PHONY : hsts.c.i
-
-hsts.s: hsts.c.s
-.PHONY : hsts.s
-
-# target to generate assembly for a file
-hsts.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/hsts.c.s
-.PHONY : hsts.c.s
-
 http.obj: http.c.obj
 .PHONY : http.obj
 
@@ -1493,30 +1373,6 @@ http2.s: http2.c.s
 http2.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.s
 .PHONY : http2.c.s
-
-http_aws_sigv4.obj: http_aws_sigv4.c.obj
-.PHONY : http_aws_sigv4.obj
-
-# target to build an object file
-http_aws_sigv4.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.obj
-.PHONY : http_aws_sigv4.c.obj
-
-http_aws_sigv4.i: http_aws_sigv4.c.i
-.PHONY : http_aws_sigv4.i
-
-# target to preprocess a source file
-http_aws_sigv4.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.i
-.PHONY : http_aws_sigv4.c.i
-
-http_aws_sigv4.s: http_aws_sigv4.c.s
-.PHONY : http_aws_sigv4.s
-
-# target to generate assembly for a file
-http_aws_sigv4.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.s
-.PHONY : http_aws_sigv4.c.s
 
 http_chunks.obj: http_chunks.c.obj
 .PHONY : http_chunks.obj
@@ -1806,14 +1662,6 @@ ldap.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.s
 .PHONY : ldap.c.s
 
-libcurl.obj: libcurl.rc.obj
-.PHONY : libcurl.obj
-
-# target to build an object file
-libcurl.rc.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/libcurl.rc.obj
-.PHONY : libcurl.rc.obj
-
 llist.obj: llist.c.obj
 .PHONY : llist.obj
 
@@ -1957,30 +1805,6 @@ mprintf.s: mprintf.c.s
 mprintf.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/mprintf.c.s
 .PHONY : mprintf.c.s
-
-mqtt.obj: mqtt.c.obj
-.PHONY : mqtt.obj
-
-# target to build an object file
-mqtt.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/mqtt.c.obj
-.PHONY : mqtt.c.obj
-
-mqtt.i: mqtt.c.i
-.PHONY : mqtt.i
-
-# target to preprocess a source file
-mqtt.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/mqtt.c.i
-.PHONY : mqtt.c.i
-
-mqtt.s: mqtt.c.s
-.PHONY : mqtt.s
-
-# target to generate assembly for a file
-mqtt.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/mqtt.c.s
-.PHONY : mqtt.c.s
 
 multi.obj: multi.c.obj
 .PHONY : multi.obj
@@ -2293,6 +2117,30 @@ rtsp.s: rtsp.c.s
 rtsp.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.s
 .PHONY : rtsp.c.s
+
+security.obj: security.c.obj
+.PHONY : security.obj
+
+# target to build an object file
+security.c.obj:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/security.c.obj
+.PHONY : security.c.obj
+
+security.i: security.c.i
+.PHONY : security.i
+
+# target to preprocess a source file
+security.c.i:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/security.c.i
+.PHONY : security.c.i
+
+security.s: security.c.s
+.PHONY : security.s
+
+# target to generate assembly for a file
+security.c.s:
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/security.c.s
+.PHONY : security.c.s
 
 select.obj: select.c.obj
 .PHONY : select.obj
@@ -3230,30 +3078,6 @@ version.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.s
 .PHONY : version.c.s
 
-version_win32.obj: version_win32.c.obj
-.PHONY : version_win32.obj
-
-# target to build an object file
-version_win32.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/version_win32.c.obj
-.PHONY : version_win32.c.obj
-
-version_win32.i: version_win32.c.i
-.PHONY : version_win32.i
-
-# target to preprocess a source file
-version_win32.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/version_win32.c.i
-.PHONY : version_win32.c.i
-
-version_win32.s: version_win32.c.s
-.PHONY : version_win32.s
-
-# target to generate assembly for a file
-version_win32.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/version_win32.c.s
-.PHONY : version_win32.c.s
-
 vquic/ngtcp2.obj: vquic/ngtcp2.c.obj
 .PHONY : vquic/ngtcp2.obj
 
@@ -3301,30 +3125,6 @@ vquic/quiche.s: vquic/quiche.c.s
 vquic/quiche.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.s
 .PHONY : vquic/quiche.c.s
-
-vquic/vquic.obj: vquic/vquic.c.obj
-.PHONY : vquic/vquic.obj
-
-# target to build an object file
-vquic/vquic.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/vquic.c.obj
-.PHONY : vquic/vquic.c.obj
-
-vquic/vquic.i: vquic/vquic.c.i
-.PHONY : vquic/vquic.i
-
-# target to preprocess a source file
-vquic/vquic.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/vquic.c.i
-.PHONY : vquic/vquic.c.i
-
-vquic/vquic.s: vquic/vquic.c.s
-.PHONY : vquic/vquic.s
-
-# target to generate assembly for a file
-vquic/vquic.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/vquic.c.s
-.PHONY : vquic/vquic.c.s
 
 vssh/libssh.obj: vssh/libssh.c.obj
 .PHONY : vssh/libssh.obj
@@ -3469,30 +3269,6 @@ vtls/gtls.s: vtls/gtls.c.s
 vtls/gtls.c.s:
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.s
 .PHONY : vtls/gtls.c.s
-
-vtls/keylog.obj: vtls/keylog.c.obj
-.PHONY : vtls/keylog.obj
-
-# target to build an object file
-vtls/keylog.c.obj:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/keylog.c.obj
-.PHONY : vtls/keylog.c.obj
-
-vtls/keylog.i: vtls/keylog.c.i
-.PHONY : vtls/keylog.i
-
-# target to preprocess a source file
-vtls/keylog.c.i:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/keylog.c.i
-.PHONY : vtls/keylog.c.i
-
-vtls/keylog.s: vtls/keylog.c.s
-.PHONY : vtls/keylog.s
-
-# target to generate assembly for a file
-vtls/keylog.c.s:
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug && $(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/keylog.c.s
-.PHONY : vtls/keylog.c.s
 
 vtls/mbedtls.obj: vtls/mbedtls.c.obj
 .PHONY : vtls/mbedtls.obj
@@ -3834,9 +3610,6 @@ help:
 	@echo ... base64.obj
 	@echo ... base64.i
 	@echo ... base64.s
-	@echo ... c-hyper.obj
-	@echo ... c-hyper.i
-	@echo ... c-hyper.s
 	@echo ... conncache.obj
 	@echo ... conncache.i
 	@echo ... conncache.s
@@ -3912,18 +3685,9 @@ help:
 	@echo ... dotdot.obj
 	@echo ... dotdot.i
 	@echo ... dotdot.s
-	@echo ... dynbuf.obj
-	@echo ... dynbuf.i
-	@echo ... dynbuf.s
 	@echo ... easy.obj
 	@echo ... easy.i
 	@echo ... easy.s
-	@echo ... easygetopt.obj
-	@echo ... easygetopt.i
-	@echo ... easygetopt.s
-	@echo ... easyoptions.obj
-	@echo ... easyoptions.i
-	@echo ... easyoptions.s
 	@echo ... escape.obj
 	@echo ... escape.i
 	@echo ... escape.s
@@ -3975,18 +3739,12 @@ help:
 	@echo ... hostsyn.obj
 	@echo ... hostsyn.i
 	@echo ... hostsyn.s
-	@echo ... hsts.obj
-	@echo ... hsts.i
-	@echo ... hsts.s
 	@echo ... http.obj
 	@echo ... http.i
 	@echo ... http.s
 	@echo ... http2.obj
 	@echo ... http2.i
 	@echo ... http2.s
-	@echo ... http_aws_sigv4.obj
-	@echo ... http_aws_sigv4.i
-	@echo ... http_aws_sigv4.s
 	@echo ... http_chunks.obj
 	@echo ... http_chunks.i
 	@echo ... http_chunks.s
@@ -4023,7 +3781,6 @@ help:
 	@echo ... ldap.obj
 	@echo ... ldap.i
 	@echo ... ldap.s
-	@echo ... libcurl.obj
 	@echo ... llist.obj
 	@echo ... llist.i
 	@echo ... llist.s
@@ -4042,9 +3799,6 @@ help:
 	@echo ... mprintf.obj
 	@echo ... mprintf.i
 	@echo ... mprintf.s
-	@echo ... mqtt.obj
-	@echo ... mqtt.i
-	@echo ... mqtt.s
 	@echo ... multi.obj
 	@echo ... multi.i
 	@echo ... multi.s
@@ -4084,6 +3838,9 @@ help:
 	@echo ... rtsp.obj
 	@echo ... rtsp.i
 	@echo ... rtsp.s
+	@echo ... security.obj
+	@echo ... security.i
+	@echo ... security.s
 	@echo ... select.obj
 	@echo ... select.i
 	@echo ... select.s
@@ -4201,18 +3958,12 @@ help:
 	@echo ... version.obj
 	@echo ... version.i
 	@echo ... version.s
-	@echo ... version_win32.obj
-	@echo ... version_win32.i
-	@echo ... version_win32.s
 	@echo ... vquic/ngtcp2.obj
 	@echo ... vquic/ngtcp2.i
 	@echo ... vquic/ngtcp2.s
 	@echo ... vquic/quiche.obj
 	@echo ... vquic/quiche.i
 	@echo ... vquic/quiche.s
-	@echo ... vquic/vquic.obj
-	@echo ... vquic/vquic.i
-	@echo ... vquic/vquic.s
 	@echo ... vssh/libssh.obj
 	@echo ... vssh/libssh.i
 	@echo ... vssh/libssh.s
@@ -4231,9 +3982,6 @@ help:
 	@echo ... vtls/gtls.obj
 	@echo ... vtls/gtls.i
 	@echo ... vtls/gtls.s
-	@echo ... vtls/keylog.obj
-	@echo ... vtls/keylog.i
-	@echo ... vtls/keylog.s
 	@echo ... vtls/mbedtls.obj
 	@echo ... vtls/mbedtls.i
 	@echo ... vtls/mbedtls.s

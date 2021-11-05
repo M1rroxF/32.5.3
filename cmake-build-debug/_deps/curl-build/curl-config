@@ -6,11 +6,11 @@
 #                            | (__| |_| |  _ <| |___
 #                             \___|\___/|_| \_\_____|
 #
-# Copyright (C) 2001 - 2020, Daniel Stenberg, <daniel@haxx.se>, et al.
+# Copyright (C) 2001 - 2018, Daniel Stenberg, <daniel@haxx.se>, et al.
 #
 # This software is licensed as described in the file COPYING, which
 # you should have received as part of this distribution. The terms
-# are also available at https://curl.se/docs/copyright.html.
+# are also available at https://curl.haxx.se/docs/copyright.html.
 #
 # You may opt to use, copy, modify, merge, publish, distribute and/or sell
 # copies of the Software, and permit persons to whom the Software is
@@ -84,19 +84,19 @@ while test $# -gt 0; do
         ;;
 
     --feature|--features)
-        for feature in SSL IPv6 libz AsynchDNS SSPI alt-svc SPNEGO Kerberos NTLM ""; do
+        for feature in IPv6 libz AsynchDNS NTLM ""; do
             test -n "$feature" && echo "$feature"
         done
         ;;
 
     --protocols)
-        for protocol in HTTP HTTPS; do
+        for protocol in HTTP; do
             echo "$protocol"
         done
         ;;
 
     --version)
-        echo libcurl 7.75.0
+        echo libcurl 7.69.1-DEV
         exit 0
         ;;
 
@@ -108,11 +108,11 @@ while test $# -gt 0; do
         # dash as that's used for things like version 1.2.3-CVS
         cpatch=`echo $checkfor | cut -d. -f3 | cut -d- -f1`
 
-        vmajor=`echo 7.75.0 | cut -d. -f1`
-        vminor=`echo 7.75.0 | cut -d. -f2`
+        vmajor=`echo 7.69.1-DEV | cut -d. -f1`
+        vminor=`echo 7.69.1-DEV | cut -d. -f2`
         # when extracting the patch part we strip off everything after a
         # dash as that's used for things like version 1.2.3-CVS
-        vpatch=`echo 7.75.0 | cut -d. -f3 | cut -d- -f1`
+        vpatch=`echo 7.69.1-DEV | cut -d. -f3 | cut -d- -f1`
 
         if test "$vmajor" -gt "$cmajor"; then
             exit 0;
@@ -128,12 +128,12 @@ while test $# -gt 0; do
             fi
         fi
 
-        echo "requested version $checkfor is newer than existing 7.75.0"
+        echo "requested version $checkfor is newer than existing 7.69.1-DEV"
         exit 1
         ;;
 
     --vernum)
-        echo 074b00
+        echo 074501
         exit 0
         ;;
 
@@ -160,19 +160,19 @@ while test $# -gt 0; do
         else
            CURLLIBDIR=""
         fi
-        if test "Xyes" = "Xno"; then
-          echo ${CURLLIBDIR}-lcurl  -lmingw32 -lgcc -lmoldname -lmingwex -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -lpthread -ladvapi32 -lcrypt32 C:/MinGW/lib/libz.dll.a
+        if test "Xno" = "Xyes"; then
+          echo ${CURLLIBDIR}-lcurl  -lmingw32 -lgcc -lmoldname -lmingwex -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -lpthread -ladvapi32 -lZLIB::ZLIB
         else
           echo ${CURLLIBDIR}-lcurl
         fi
         ;;
     --ssl-backends)
-        echo "Schannel"
+        echo ""
         ;;
 
     --static-libs)
         if test "Xno" != "Xno" ; then
-          echo C:/Program Files (x86)/skillbox/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -lpthread -ladvapi32 -lcrypt32 C:/MinGW/lib/libz.dll.a
+          echo C:/Program Files (x86)/skillbox/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -lpthread -ladvapi32 -lZLIB::ZLIB
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1

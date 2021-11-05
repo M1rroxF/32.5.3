@@ -5,12 +5,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/altsvc.c.obj: \
  _deps/curl-src/lib/altsvc.c \
  _deps/curl-src/lib/altsvc.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -26,7 +26,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/altsvc.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -38,7 +37,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/altsvc.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/parsedate.h \
  _deps/curl-src/lib/pingpong.h \
@@ -51,7 +49,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/altsvc.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -70,7 +67,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/altsvc.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -83,6 +79,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/amigaos.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -94,13 +91,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/amigaos.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -108,12 +103,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/amigaos.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.obj: \
  _deps/curl-src/lib/asyn-ares.c \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -129,7 +124,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -142,7 +136,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -156,7 +149,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -177,7 +169,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -185,12 +176,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-ares.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.obj: \
  _deps/curl-src/lib/asyn-thread.c \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -207,7 +198,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/curl_threads.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -220,7 +210,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -232,7 +221,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -253,7 +241,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -261,12 +248,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/asyn-thread.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.obj: \
  _deps/curl-src/lib/asyn.h \
  _deps/curl-src/lib/base64.c \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -282,7 +269,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -294,7 +280,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -304,7 +289,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -322,89 +306,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/base64.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/c-hyper.c.obj: \
- _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.c \
- _deps/curl-src/lib/c-hyper.h \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/conncache.h \
- _deps/curl-src/lib/cookie.h \
- _deps/curl-src/lib/curl_addrinfo.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_printf.h \
- _deps/curl-src/lib/curl_sasl.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
- _deps/curl-src/lib/file.h \
- _deps/curl-src/lib/formdata.h \
- _deps/curl-src/lib/ftp.h \
- _deps/curl-src/lib/hash.h \
- _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/http.h \
- _deps/curl-src/lib/http_chunks.h \
- _deps/curl-src/lib/imap.h \
- _deps/curl-src/lib/llist.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
- _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/multiif.h \
- _deps/curl-src/lib/pingpong.h \
- _deps/curl-src/lib/pop3.h \
- _deps/curl-src/lib/progress.h \
- _deps/curl-src/lib/psl.h \
- _deps/curl-src/lib/quic.h \
- _deps/curl-src/lib/rtsp.h \
- _deps/curl-src/lib/sendf.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/smb.h \
- _deps/curl-src/lib/smtp.h \
- _deps/curl-src/lib/socketpair.h \
- _deps/curl-src/lib/splay.h \
- _deps/curl-src/lib/timeval.h \
- _deps/curl-src/lib/transfer.h \
- _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/vquic/ngtcp2.h \
- _deps/curl-src/lib/vquic/quiche.h \
- _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/wildcard.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/conncache.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -421,7 +334,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/conncache.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -433,7 +345,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/conncache.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -446,7 +357,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/conncache.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/sigpipe.h \
  _deps/curl-src/lib/smb.h \
@@ -467,19 +377,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/conncache.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -496,7 +405,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -511,7 +419,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -525,7 +432,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -533,10 +439,10 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.obj: \
  _deps/curl-src/lib/socks.h \
  _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/strerror.h \
+ _deps/curl-src/lib/system_win32.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/url.h \
  _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/version_win32.h \
  _deps/curl-src/lib/vquic/ngtcp2.h \
  _deps/curl-src/lib/vquic/quiche.h \
  _deps/curl-src/lib/vssh/ssh.h \
@@ -559,19 +465,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/connect.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/content_encoding.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -587,7 +492,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/content_encoding.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -599,7 +503,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/content_encoding.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -609,7 +512,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/content_encoding.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -627,19 +529,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/content_encoding.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/cookie.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -657,7 +558,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/cookie.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -670,7 +570,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/cookie.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/parsedate.h \
  _deps/curl-src/lib/pingpong.h \
@@ -683,7 +582,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/cookie.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/slist.h \
  _deps/curl-src/lib/smb.h \
@@ -705,7 +603,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/cookie.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -716,6 +613,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_addrinfo.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -731,7 +629,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_addrinfo.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
@@ -739,7 +636,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_addrinfo.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -750,6 +646,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ctype.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -760,13 +657,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ctype.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -777,6 +672,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_des.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -788,13 +684,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_des.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -805,6 +699,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_endian.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -816,13 +711,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_endian.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -833,6 +726,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_fnmatch.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -846,13 +740,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_fnmatch.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -863,6 +755,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_get_line.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -876,13 +769,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_get_line.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -893,6 +784,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gethostname.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -904,25 +796,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gethostname.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gssapi.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -939,7 +829,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gssapi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -951,7 +840,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gssapi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -961,7 +849,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gssapi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -978,7 +865,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_gssapi.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -989,6 +875,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_memrchr.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1002,13 +889,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_memrchr.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -1019,36 +904,37 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_multibyte.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
  _deps/curl-src/lib/config-win32ce.h \
  _deps/curl-src/lib/curl_ctype.h \
+ _deps/curl-src/lib/curl_memory.h \
  _deps/curl-src/lib/curl_multibyte.c \
  _deps/curl-src/lib/curl_multibyte.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
+ _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1070,7 +956,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -1082,7 +967,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -1092,7 +976,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1111,19 +994,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_core.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1141,7 +1023,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -1153,7 +1034,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -1164,7 +1044,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1186,19 +1065,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_ntlm_wb.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_path.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1214,7 +1092,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_path.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -1227,7 +1104,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_path.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -1236,7 +1112,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_path.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1252,19 +1127,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_path.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_range.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1279,7 +1153,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_range.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -1290,7 +1163,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_range.c.obj: \
  _deps/curl-src/lib/imap.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -1300,7 +1172,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_range.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1317,19 +1188,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_range.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_rtmp.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1345,7 +1215,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_rtmp.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -1357,7 +1226,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_rtmp.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -1368,7 +1236,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_rtmp.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1386,19 +1253,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_rtmp.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sasl.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1417,7 +1283,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sasl.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -1429,7 +1294,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sasl.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -1440,7 +1304,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sasl.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1471,7 +1334,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sasl.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -1482,6 +1344,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sspi.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1496,16 +1359,13 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_sspi.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/system_win32.h \
- _deps/curl-src/lib/version_win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -1516,6 +1376,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_threads.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1529,25 +1390,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/curl_threads.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/dict.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1557,14 +1416,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/dict.c.obj: \
  _deps/curl-src/lib/curl_addrinfo.h \
  _deps/curl-src/lib/curl_ctype.h \
  _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_printf.h \
  _deps/curl-src/lib/curl_sasl.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/dict.c \
  _deps/curl-src/lib/dict.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -1577,7 +1434,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/dict.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -1588,7 +1444,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/dict.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1605,21 +1460,19 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/dict.c.obj: \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/doh.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1638,7 +1491,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/doh.c.obj: \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/doh.c \
  _deps/curl-src/lib/doh.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -1650,7 +1502,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/doh.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -1662,7 +1513,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/doh.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -1683,7 +1533,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/doh.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -1694,6 +1543,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/dotdot.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1707,59 +1557,24 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/dotdot.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/dynbuf.c.obj: \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_printf.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/dynbuf.c \
- _deps/curl-src/lib/dynbuf.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.obj: \
- _deps/curl-src/lib/altsvc.h \
  _deps/curl-src/lib/amigaos.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1775,7 +1590,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/easy.c \
  _deps/curl-src/lib/easyif.h \
  _deps/curl-src/lib/file.h \
@@ -1784,7 +1598,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.obj: \
  _deps/curl-src/lib/getinfo.h \
  _deps/curl-src/lib/hash.h \
  _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/hsts.h \
  _deps/curl-src/lib/http.h \
  _deps/curl-src/lib/http2.h \
  _deps/curl-src/lib/http_chunks.h \
@@ -1793,7 +1606,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.h \
@@ -1809,7 +1621,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.obj: \
  _deps/curl-src/lib/setopt.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/sigpipe.h \
  _deps/curl-src/lib/slist.h \
@@ -1846,76 +1657,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/easy.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/easygetopt.c.obj: \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/easygetopt.c \
- _deps/curl-src/lib/easyoptions.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/strcase.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/easyoptions.c.obj: \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/easyoptions.c \
- _deps/curl-src/lib/easyoptions.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/escape.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -1930,7 +1683,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/escape.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.c \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
@@ -1944,7 +1696,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/escape.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -1954,7 +1705,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/escape.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -1973,19 +1723,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/escape.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/file.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2001,7 +1750,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/file.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.c \
  _deps/curl-src/lib/file.h \
@@ -2016,7 +1764,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/file.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/parsedate.h \
  _deps/curl-src/lib/pingpong.h \
@@ -2028,7 +1775,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/file.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -2050,7 +1796,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/file.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -2061,6 +1806,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/fileinfo.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2075,26 +1821,24 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/fileinfo.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strdup.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/formdata.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2109,7 +1853,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/formdata.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.c \
  _deps/curl-src/lib/formdata.h \
@@ -2122,7 +1865,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/formdata.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -2134,7 +1876,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/formdata.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -2165,19 +1906,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/formdata.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftp.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2187,15 +1927,14 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftp.c.obj: \
  _deps/curl-src/lib/cookie.h \
  _deps/curl-src/lib/curl_addrinfo.h \
  _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_krb5.h \
  _deps/curl-src/lib/curl_memory.h \
  _deps/curl-src/lib/curl_printf.h \
  _deps/curl-src/lib/curl_range.h \
  _deps/curl-src/lib/curl_sasl.h \
+ _deps/curl-src/lib/curl_sec.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/fileinfo.h \
@@ -2215,7 +1954,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftp.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.h \
@@ -2231,7 +1969,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftp.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -2268,19 +2005,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftp.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftplistparser.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2295,7 +2031,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftplistparser.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/fileinfo.h \
  _deps/curl-src/lib/formdata.h \
@@ -2310,7 +2045,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftplistparser.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/pingpong.h \
@@ -2320,7 +2054,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftplistparser.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -2337,7 +2070,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ftplistparser.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -2348,6 +2080,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/getenv.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2360,25 +2093,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/getenv.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/getinfo.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2393,7 +2124,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/getinfo.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -2407,7 +2137,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/getinfo.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -2418,7 +2147,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/getinfo.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -2446,25 +2174,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/getinfo.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
  _deps/curl-src/lib/config-win32ce.h \
  _deps/curl-src/lib/conncache.h \
- _deps/curl-src/lib/connect.h \
  _deps/curl-src/lib/cookie.h \
  _deps/curl-src/lib/curl_addrinfo.h \
  _deps/curl-src/lib/curl_ctype.h \
@@ -2474,7 +2200,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -2489,9 +2214,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
  _deps/curl-src/lib/progress.h \
@@ -2502,10 +2225,8 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
- _deps/curl-src/lib/sockaddr.h \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/strdup.h \
@@ -2516,17 +2237,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.obj: \
  _deps/curl-src/lib/vquic/ngtcp2.h \
  _deps/curl-src/lib/vquic/quiche.h \
  _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/vtls/bearssl.h \
- _deps/curl-src/lib/vtls/gskit.h \
- _deps/curl-src/lib/vtls/gtls.h \
- _deps/curl-src/lib/vtls/mbedtls.h \
- _deps/curl-src/lib/vtls/mesalink.h \
- _deps/curl-src/lib/vtls/nssg.h \
- _deps/curl-src/lib/vtls/openssl.h \
- _deps/curl-src/lib/vtls/schannel.h \
- _deps/curl-src/lib/vtls/sectransp.h \
- _deps/curl-src/lib/vtls/vtls.h \
- _deps/curl-src/lib/vtls/wolfssl.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-src/lib/wildcard.h \
  _deps/curl-build/lib/curl_config.h \
@@ -2535,7 +2245,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/gopher.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -2546,6 +2255,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hash.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2560,13 +2270,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hash.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -2577,6 +2285,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hmac.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2590,26 +2299,24 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hmac.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostasyn.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2623,7 +2330,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostasyn.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -2636,7 +2342,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostasyn.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -2646,7 +2351,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostasyn.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -2665,7 +2369,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostasyn.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -2676,6 +2379,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostcheck.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2690,26 +2394,24 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostcheck.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2725,7 +2427,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/doh.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -2740,7 +2441,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/pingpong.h \
@@ -2752,7 +2452,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -2773,19 +2472,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip4.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2800,7 +2498,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip4.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -2813,7 +2510,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip4.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -2823,7 +2519,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip4.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -2843,19 +2538,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip4.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip6.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2871,7 +2565,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip6.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -2885,7 +2578,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip6.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -2896,7 +2588,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip6.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -2917,19 +2608,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostip6.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -2943,7 +2633,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -2956,7 +2645,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -2966,7 +2654,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -2985,81 +2672,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hostsyn.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/hsts.c.obj: \
- _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/conncache.h \
- _deps/curl-src/lib/cookie.h \
- _deps/curl-src/lib/curl_addrinfo.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_get_line.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_printf.h \
- _deps/curl-src/lib/curl_sasl.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
- _deps/curl-src/lib/file.h \
- _deps/curl-src/lib/formdata.h \
- _deps/curl-src/lib/ftp.h \
- _deps/curl-src/lib/hash.h \
- _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/hsts.c \
- _deps/curl-src/lib/hsts.h \
- _deps/curl-src/lib/http.h \
- _deps/curl-src/lib/http_chunks.h \
- _deps/curl-src/lib/imap.h \
- _deps/curl-src/lib/llist.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
- _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/parsedate.h \
- _deps/curl-src/lib/pingpong.h \
- _deps/curl-src/lib/pop3.h \
- _deps/curl-src/lib/psl.h \
- _deps/curl-src/lib/quic.h \
- _deps/curl-src/lib/rand.h \
- _deps/curl-src/lib/rename.h \
- _deps/curl-src/lib/rtsp.h \
- _deps/curl-src/lib/sendf.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/smb.h \
- _deps/curl-src/lib/smtp.h \
- _deps/curl-src/lib/socketpair.h \
- _deps/curl-src/lib/splay.h \
- _deps/curl-src/lib/strcase.h \
- _deps/curl-src/lib/strtoofft.h \
- _deps/curl-src/lib/timeval.h \
- _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/vquic/ngtcp2.h \
- _deps/curl-src/lib/vquic/quiche.h \
- _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/wildcard.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -3067,12 +2679,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/hsts.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http.c.obj: \
  _deps/curl-src/lib/altsvc.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3091,17 +2703,14 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
  _deps/curl-src/lib/hash.h \
  _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/hsts.h \
  _deps/curl-src/lib/http.c \
  _deps/curl-src/lib/http.h \
  _deps/curl-src/lib/http2.h \
- _deps/curl-src/lib/http_aws_sigv4.h \
  _deps/curl-src/lib/http_chunks.h \
  _deps/curl-src/lib/http_digest.h \
  _deps/curl-src/lib/http_negotiate.h \
@@ -3111,7 +2720,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.h \
@@ -3127,7 +2735,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -3164,19 +2771,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3193,7 +2799,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3207,7 +2812,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -3220,7 +2824,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -3242,95 +2845,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http2.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/http_aws_sigv4.c.obj: \
- _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/conncache.h \
- _deps/curl-src/lib/cookie.h \
- _deps/curl-src/lib/curl_addrinfo.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_hmac.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_printf.h \
- _deps/curl-src/lib/curl_sasl.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/curl_sha256.h \
- _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
- _deps/curl-src/lib/file.h \
- _deps/curl-src/lib/formdata.h \
- _deps/curl-src/lib/ftp.h \
- _deps/curl-src/lib/hash.h \
- _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/http.h \
- _deps/curl-src/lib/http_aws_sigv4.c \
- _deps/curl-src/lib/http_aws_sigv4.h \
- _deps/curl-src/lib/http_chunks.h \
- _deps/curl-src/lib/imap.h \
- _deps/curl-src/lib/llist.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
- _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/parsedate.h \
- _deps/curl-src/lib/pingpong.h \
- _deps/curl-src/lib/pop3.h \
- _deps/curl-src/lib/psl.h \
- _deps/curl-src/lib/quic.h \
- _deps/curl-src/lib/rtsp.h \
- _deps/curl-src/lib/sendf.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/smb.h \
- _deps/curl-src/lib/smtp.h \
- _deps/curl-src/lib/socketpair.h \
- _deps/curl-src/lib/splay.h \
- _deps/curl-src/lib/strcase.h \
- _deps/curl-src/lib/strdup.h \
- _deps/curl-src/lib/timeval.h \
- _deps/curl-src/lib/transfer.h \
- _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/vauth/digest.h \
- _deps/curl-src/lib/vauth/vauth.h \
- _deps/curl-src/lib/vquic/ngtcp2.h \
- _deps/curl-src/lib/vquic/quiche.h \
- _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/wildcard.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_chunks.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3345,7 +2871,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_chunks.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3358,7 +2883,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_chunks.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -3369,7 +2893,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_chunks.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -3387,19 +2910,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_chunks.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_digest.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3414,7 +2936,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_digest.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3428,7 +2949,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_digest.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -3437,7 +2957,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_digest.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -3456,19 +2975,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_digest.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_negotiate.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3483,7 +3001,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_negotiate.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3497,7 +3014,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_negotiate.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -3507,7 +3023,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_negotiate.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -3525,19 +3040,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_negotiate.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_ntlm.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3554,7 +3068,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_ntlm.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3568,7 +3081,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_ntlm.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -3578,7 +3090,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_ntlm.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -3598,19 +3109,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_ntlm.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3621,14 +3131,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.obj: \
  _deps/curl-src/lib/curl_addrinfo.h \
  _deps/curl-src/lib/curl_ctype.h \
  _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_multibyte.h \
  _deps/curl-src/lib/curl_printf.h \
  _deps/curl-src/lib/curl_sasl.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/curlx.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3642,7 +3150,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/nonblock.h \
@@ -3656,7 +3163,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -3667,7 +3173,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.obj: \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/url.h \
  _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/version_win32.h \
  _deps/curl-src/lib/vquic/ngtcp2.h \
  _deps/curl-src/lib/vquic/quiche.h \
  _deps/curl-src/lib/vssh/ssh.h \
@@ -3690,7 +3195,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/http_proxy.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -3701,6 +3205,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/idn_win32.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3714,14 +3219,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/idn_win32.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -3732,6 +3235,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/if2ip.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3747,7 +3251,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/if2ip.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
@@ -3755,19 +3258,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/if2ip.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/imap.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3783,7 +3285,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/imap.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -3797,7 +3298,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/imap.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -3811,7 +3311,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/imap.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -3847,7 +3346,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/imap.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -3858,6 +3356,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/inet_ntop.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3870,14 +3369,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/inet_ntop.c.obj: \
  _deps/curl-src/lib/inet_ntop.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -3888,6 +3385,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/inet_pton.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3899,25 +3397,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/inet_pton.c.obj: \
  _deps/curl-src/lib/inet_pton.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/krb5.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -3928,14 +3424,13 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/krb5.c.obj: \
  _deps/curl-src/lib/curl_base64.h \
  _deps/curl-src/lib/curl_ctype.h \
  _deps/curl-src/lib/curl_gssapi.h \
- _deps/curl-src/lib/curl_krb5.h \
  _deps/curl-src/lib/curl_memory.h \
  _deps/curl-src/lib/curl_printf.h \
  _deps/curl-src/lib/curl_sasl.h \
+ _deps/curl-src/lib/curl_sec.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -3948,9 +3443,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/krb5.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
  _deps/curl-src/lib/psl.h \
@@ -3959,13 +3452,10 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/krb5.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-src/lib/splay.h \
- _deps/curl-src/lib/strcase.h \
- _deps/curl-src/lib/strdup.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/urldata.h \
  _deps/curl-src/lib/vquic/ngtcp2.h \
@@ -3979,19 +3469,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/krb5.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4010,7 +3499,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -4024,7 +3512,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -4036,7 +3523,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -4057,7 +3543,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/ldap.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4068,6 +3553,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/llist.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4081,13 +3567,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/llist.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4098,6 +3582,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/md4.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4111,14 +3596,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/md4.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4129,6 +3612,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/md5.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4143,26 +3627,24 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/md5.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/memdebug.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4177,7 +3659,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/memdebug.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -4190,7 +3671,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/memdebug.c.obj: \
  _deps/curl-src/lib/memdebug.c \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -4199,7 +3679,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/memdebug.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -4216,19 +3695,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/memdebug.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/mime.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4243,7 +3721,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/mime.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -4256,7 +3733,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/mime.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.c \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -4268,7 +3744,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/mime.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/slist.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -4288,7 +3763,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/mime.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4299,6 +3773,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/mprintf.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4307,107 +3782,28 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/mprintf.c.obj: \
  _deps/curl-src/lib/curl_memory.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mprintf.c \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/mqtt.c.obj: \
- _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/conncache.h \
- _deps/curl-src/lib/cookie.h \
- _deps/curl-src/lib/curl_addrinfo.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_printf.h \
- _deps/curl-src/lib/curl_sasl.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
- _deps/curl-src/lib/escape.h \
- _deps/curl-src/lib/file.h \
- _deps/curl-src/lib/formdata.h \
- _deps/curl-src/lib/ftp.h \
- _deps/curl-src/lib/hash.h \
- _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/http.h \
- _deps/curl-src/lib/http_chunks.h \
- _deps/curl-src/lib/imap.h \
- _deps/curl-src/lib/llist.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.c \
- _deps/curl-src/lib/mqtt.h \
- _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/multiif.h \
- _deps/curl-src/lib/pingpong.h \
- _deps/curl-src/lib/pop3.h \
- _deps/curl-src/lib/progress.h \
- _deps/curl-src/lib/psl.h \
- _deps/curl-src/lib/quic.h \
- _deps/curl-src/lib/rand.h \
- _deps/curl-src/lib/rtsp.h \
- _deps/curl-src/lib/select.h \
- _deps/curl-src/lib/sendf.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/smb.h \
- _deps/curl-src/lib/smtp.h \
- _deps/curl-src/lib/socketpair.h \
- _deps/curl-src/lib/splay.h \
- _deps/curl-src/lib/strdup.h \
- _deps/curl-src/lib/timeval.h \
- _deps/curl-src/lib/transfer.h \
- _deps/curl-src/lib/url.h \
- _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/vquic/ngtcp2.h \
- _deps/curl-src/lib/vquic/quiche.h \
- _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/warnless.h \
- _deps/curl-src/lib/wildcard.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/multi.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4423,7 +3819,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/multi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/easyif.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -4438,7 +3833,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/multi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multi.c \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
@@ -4453,7 +3847,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/multi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/sigpipe.h \
  _deps/curl-src/lib/smb.h \
@@ -4489,7 +3882,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/multi.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4500,6 +3892,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/netrc.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4514,7 +3907,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/netrc.c.obj: \
  _deps/curl-src/lib/netrc.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-src/lib/strtok.h \
  _deps/curl-build/lib/curl_config.h \
@@ -4523,19 +3915,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/netrc.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/non-ascii.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4549,7 +3940,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/non-ascii.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -4561,7 +3951,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/non-ascii.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.c \
@@ -4574,7 +3963,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/non-ascii.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -4590,7 +3978,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/non-ascii.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4601,6 +3988,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/nonblock.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4612,25 +4000,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/nonblock.c.obj: \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/openldap.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4648,7 +4034,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/openldap.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -4660,7 +4045,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/openldap.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/openldap.c \
@@ -4672,7 +4056,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/openldap.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -4702,7 +4085,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/openldap.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -4713,6 +4095,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/parsedate.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4724,7 +4107,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/parsedate.c.obj: \
  _deps/curl-src/lib/parsedate.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
@@ -4732,19 +4114,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/parsedate.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/pingpong.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4759,7 +4140,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pingpong.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -4771,7 +4151,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pingpong.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.h \
@@ -4786,7 +4165,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pingpong.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -4815,19 +4193,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pingpong.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/pop3.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4845,7 +4222,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pop3.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -4858,7 +4234,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pop3.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -4873,7 +4248,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pop3.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -4909,19 +4283,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/pop3.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/progress.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -4935,7 +4308,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/progress.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -4946,7 +4318,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/progress.c.obj: \
  _deps/curl-src/lib/imap.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/pingpong.h \
@@ -4959,7 +4330,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/progress.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -4976,19 +4346,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/progress.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/psl.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5003,7 +4372,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/psl.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5015,7 +4383,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/psl.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -5025,7 +4392,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/psl.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -5043,7 +4409,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/psl.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -5054,6 +4419,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rand.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5069,7 +4435,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rand.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/vtls/bearssl.h \
  _deps/curl-src/lib/vtls/gskit.h \
  _deps/curl-src/lib/vtls/gtls.h \
@@ -5087,19 +4452,16 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rand.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/conncache.h \
  _deps/curl-src/lib/cookie.h \
  _deps/curl-src/lib/curl_addrinfo.h \
  _deps/curl-src/lib/curl_sasl.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5110,7 +4472,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rand.c.obj: \
  _deps/curl-src/lib/imap.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -5133,13 +4494,13 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rename.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
  _deps/curl-src/lib/config-win32ce.h \
  _deps/curl-src/lib/curl_ctype.h \
  _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_multibyte.h \
  _deps/curl-src/lib/curl_printf.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
@@ -5148,7 +4509,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rename.c.obj: \
  _deps/curl-src/lib/rename.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
@@ -5156,19 +4516,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rename.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5184,7 +4543,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5196,7 +4554,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -5211,7 +4568,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -5233,19 +4589,86 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/rtsp.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
+ _deps/curl-src/include/curl/stdcheaders.h \
+ _deps/curl-src/include/curl/system.h \
+ _deps/curl-src/include/curl/typecheck-gcc.h \
+ _deps/curl-src/include/curl/urlapi.h
+_deps/curl-build/lib/CMakeFiles/libcurl.dir/security.c.obj: \
+ _deps/curl-src/lib/asyn.h \
+ _deps/curl-src/lib/config-amigaos.h \
+ _deps/curl-src/lib/config-mac.h \
+ _deps/curl-src/lib/config-os400.h \
+ _deps/curl-src/lib/config-plan9.h \
+ _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
+ _deps/curl-src/lib/config-tpf.h \
+ _deps/curl-src/lib/config-vxworks.h \
+ _deps/curl-src/lib/config-win32.h \
+ _deps/curl-src/lib/config-win32ce.h \
+ _deps/curl-src/lib/conncache.h \
+ _deps/curl-src/lib/cookie.h \
+ _deps/curl-src/lib/curl_addrinfo.h \
+ _deps/curl-src/lib/curl_base64.h \
+ _deps/curl-src/lib/curl_ctype.h \
+ _deps/curl-src/lib/curl_memory.h \
+ _deps/curl-src/lib/curl_printf.h \
+ _deps/curl-src/lib/curl_sasl.h \
+ _deps/curl-src/lib/curl_sec.h \
+ _deps/curl-src/lib/curl_setup.h \
+ _deps/curl-src/lib/curl_setup_once.h \
+ _deps/curl-src/lib/curl_sspi.h \
+ _deps/curl-src/lib/file.h \
+ _deps/curl-src/lib/formdata.h \
+ _deps/curl-src/lib/ftp.h \
+ _deps/curl-src/lib/hash.h \
+ _deps/curl-src/lib/hostip.h \
+ _deps/curl-src/lib/http.h \
+ _deps/curl-src/lib/http_chunks.h \
+ _deps/curl-src/lib/imap.h \
+ _deps/curl-src/lib/llist.h \
+ _deps/curl-src/lib/memdebug.h \
+ _deps/curl-src/lib/mime.h \
+ _deps/curl-src/lib/multihandle.h \
+ _deps/curl-src/lib/pingpong.h \
+ _deps/curl-src/lib/pop3.h \
+ _deps/curl-src/lib/psl.h \
+ _deps/curl-src/lib/quic.h \
+ _deps/curl-src/lib/rtsp.h \
+ _deps/curl-src/lib/security.c \
+ _deps/curl-src/lib/sendf.h \
+ _deps/curl-src/lib/setup-os400.h \
+ _deps/curl-src/lib/setup-vms.h \
+ _deps/curl-src/lib/smb.h \
+ _deps/curl-src/lib/smtp.h \
+ _deps/curl-src/lib/socketpair.h \
+ _deps/curl-src/lib/splay.h \
+ _deps/curl-src/lib/strcase.h \
+ _deps/curl-src/lib/strdup.h \
+ _deps/curl-src/lib/timeval.h \
+ _deps/curl-src/lib/urldata.h \
+ _deps/curl-src/lib/vquic/ngtcp2.h \
+ _deps/curl-src/lib/vquic/quiche.h \
+ _deps/curl-src/lib/vssh/ssh.h \
+ _deps/curl-src/lib/warnless.h \
+ _deps/curl-src/lib/wildcard.h \
+ _deps/curl-build/lib/curl_config.h \
+ _deps/curl-src/include/curl/curl.h \
+ _deps/curl-src/include/curl/curlver.h \
+ _deps/curl-src/include/curl/easy.h \
+ _deps/curl-src/include/curl/mprintf.h \
+ _deps/curl-src/include/curl/multi.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/select.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5259,7 +4682,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/select.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5270,7 +4692,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/select.c.obj: \
  _deps/curl-src/lib/imap.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -5282,7 +4703,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/select.c.obj: \
  _deps/curl-src/lib/select.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -5300,19 +4720,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/select.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5328,7 +4747,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/easyif.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -5342,7 +4760,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.h \
@@ -5357,7 +4774,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -5388,7 +4804,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -5396,12 +4811,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sendf.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/setopt.c.obj: \
  _deps/curl-src/lib/altsvc.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5417,13 +4832,11 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/setopt.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
  _deps/curl-src/lib/hash.h \
  _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/hsts.h \
  _deps/curl-src/lib/http.h \
  _deps/curl-src/lib/http2.h \
  _deps/curl-src/lib/http_chunks.h \
@@ -5431,7 +4844,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/setopt.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/pingpong.h \
@@ -5445,7 +4857,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/setopt.c.obj: \
  _deps/curl-src/lib/setopt.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -5477,7 +4888,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/setopt.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -5488,12 +4898,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sha256.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
  _deps/curl-src/lib/config-win32ce.h \
  _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_hmac.h \
  _deps/curl-src/lib/curl_memory.h \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
@@ -5501,7 +4911,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sha256.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/sha256.c \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
@@ -5509,19 +4918,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/sha256.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/share.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5535,7 +4943,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/share.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5547,7 +4954,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/share.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -5556,7 +4962,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/share.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.c \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
@@ -5585,7 +4990,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/share.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -5596,6 +5000,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/slist.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5607,7 +5012,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/slist.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/slist.c \
  _deps/curl-src/lib/slist.h \
  _deps/curl-build/lib/curl_config.h \
@@ -5615,19 +5019,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/slist.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/smb.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5644,7 +5047,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smb.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -5657,7 +5059,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smb.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -5670,7 +5071,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smb.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.c \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -5700,19 +5100,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smb.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/smtp.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5729,7 +5128,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smtp.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -5742,7 +5140,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smtp.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -5756,7 +5153,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smtp.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.c \
  _deps/curl-src/lib/smtp.h \
@@ -5793,7 +5189,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/smtp.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -5804,6 +5199,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socketpair.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5816,7 +5212,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socketpair.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/socketpair.c \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-build/lib/curl_config.h \
@@ -5825,19 +5220,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socketpair.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5853,7 +5247,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5865,7 +5258,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -5878,7 +5270,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -5898,19 +5289,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_gssapi.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -5927,7 +5317,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_gssapi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -5939,7 +5328,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_gssapi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -5950,7 +5338,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_gssapi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -5971,19 +5358,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_gssapi.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_sspi.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6000,7 +5386,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_sspi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -6012,7 +5397,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_sspi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -6023,7 +5407,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_sspi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -6046,19 +5429,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/socks_sspi.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/speedcheck.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6071,7 +5453,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/speedcheck.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -6082,7 +5463,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/speedcheck.c.obj: \
  _deps/curl-src/lib/imap.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/pingpong.h \
@@ -6093,7 +5473,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/speedcheck.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -6111,7 +5490,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/speedcheck.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6122,6 +5500,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/splay.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6131,7 +5510,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/splay.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/splay.c \
  _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/timeval.h \
@@ -6140,7 +5518,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/splay.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6151,6 +5528,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strcase.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6160,7 +5538,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strcase.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strcase.c \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-build/lib/curl_config.h \
@@ -6168,7 +5545,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strcase.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6179,6 +5555,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strdup.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6190,7 +5567,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strdup.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strdup.c \
  _deps/curl-src/lib/strdup.h \
  _deps/curl-build/lib/curl_config.h \
@@ -6198,19 +5574,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strdup.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/strerror.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6225,7 +5600,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strerror.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -6237,7 +5611,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strerror.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -6246,7 +5619,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strerror.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -6265,7 +5637,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strerror.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6276,6 +5647,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtok.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6285,7 +5657,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtok.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strtok.c \
  _deps/curl-src/lib/strtok.h \
  _deps/curl-build/lib/curl_config.h \
@@ -6293,7 +5664,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtok.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6304,6 +5674,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtoofft.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6313,7 +5684,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtoofft.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/strtoofft.c \
  _deps/curl-src/lib/strtoofft.h \
  _deps/curl-build/lib/curl_config.h \
@@ -6321,7 +5691,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/strtoofft.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6332,6 +5701,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/system_win32.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6344,17 +5714,14 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/system_win32.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/system_win32.c \
  _deps/curl-src/lib/system_win32.h \
- _deps/curl-src/lib/version_win32.h \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6362,12 +5729,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/system_win32.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/telnet.c.obj: \
  _deps/curl-src/lib/arpa_telnet.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6383,7 +5750,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/telnet.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -6395,7 +5761,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/telnet.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -6408,7 +5773,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/telnet.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -6432,19 +5796,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/telnet.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/tftp.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6460,7 +5823,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/tftp.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -6473,7 +5835,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/tftp.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -6487,7 +5848,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/tftp.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -6512,7 +5872,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/tftp.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6523,6 +5882,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/timeval.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6532,7 +5892,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/timeval.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/timeval.c \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-build/lib/curl_config.h \
@@ -6540,19 +5899,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/timeval.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6569,14 +5927,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
  _deps/curl-src/lib/getinfo.h \
  _deps/curl-src/lib/hash.h \
  _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/hsts.h \
  _deps/curl-src/lib/http.h \
  _deps/curl-src/lib/http2.h \
  _deps/curl-src/lib/http_chunks.h \
@@ -6584,7 +5940,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/netrc.h \
@@ -6600,7 +5955,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -6636,7 +5990,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6644,12 +5997,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/transfer.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.obj: \
  _deps/curl-src/lib/altsvc.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6670,7 +6023,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.obj: \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/dict.h \
  _deps/curl-src/lib/dotdot.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/easyif.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
@@ -6680,7 +6032,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.obj: \
  _deps/curl-src/lib/gopher.h \
  _deps/curl-src/lib/hash.h \
  _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/hsts.h \
  _deps/curl-src/lib/http.h \
  _deps/curl-src/lib/http2.h \
  _deps/curl-src/lib/http_chunks.h \
@@ -6694,7 +6045,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/netrc.h \
@@ -6711,7 +6061,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.obj: \
  _deps/curl-src/lib/setopt.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -6754,19 +6103,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/url.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/urlapi.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6782,7 +6130,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/urlapi.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
  _deps/curl-src/lib/dotdot.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -6796,7 +6143,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/urlapi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -6805,7 +6151,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/urlapi.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -6826,7 +6171,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/urlapi.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -6839,18 +6183,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6868,7 +6211,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -6880,7 +6222,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -6890,7 +6231,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cleartext.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -6912,18 +6252,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cram.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -6941,7 +6280,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cram.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -6953,7 +6291,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cram.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -6962,7 +6299,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/cram.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -6983,18 +6319,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7013,7 +6348,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sha256.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7025,7 +6359,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -7036,7 +6369,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7070,18 +6402,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7097,7 +6428,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7109,7 +6439,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7119,14 +6448,12 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/digest_sspi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-src/lib/strdup.h \
- _deps/curl-src/lib/strerror.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/urldata.h \
  _deps/curl-src/lib/vauth/digest.h \
@@ -7144,18 +6471,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7172,7 +6498,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7184,7 +6509,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7194,7 +6518,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_gssapi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7213,18 +6536,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7240,7 +6562,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7252,7 +6573,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7262,7 +6582,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/krb5_sspi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7283,18 +6602,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7316,7 +6634,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7328,7 +6645,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/non-ascii.h \
  _deps/curl-src/lib/pingpong.h \
@@ -7340,7 +6656,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7372,18 +6687,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7400,7 +6714,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7412,7 +6725,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7422,7 +6734,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/ntlm_sspi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7443,18 +6754,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7470,7 +6780,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7482,7 +6791,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7491,7 +6799,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/oauth2.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7511,18 +6818,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7539,7 +6845,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7551,7 +6856,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7561,7 +6865,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_gssapi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7581,18 +6884,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7608,7 +6910,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7620,7 +6921,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7630,7 +6930,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/spnego_sspi.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7653,7 +6952,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/vauth.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -7663,6 +6961,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/vauth.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7675,16 +6974,15 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vauth/vauth.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h
+ _deps/curl-src/lib/setup-vms.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7698,7 +6996,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7710,7 +7007,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.obj: \
  _deps/curl-src/lib/imap.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -7719,7 +7015,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.obj: \
  _deps/curl-src/lib/rtsp.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -7748,37 +7043,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/version.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/version_win32.c.obj: \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/version_win32.c \
- _deps/curl-src/lib/version_win32.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -7786,25 +7050,23 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/version_win32.c.obj: \
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.obj: \
  _deps/curl-src/lib/vquic/ngtcp2.c \
  _deps/curl-src/lib/vquic/ngtcp2.h \
- _deps/curl-src/lib/vquic/vquic.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7820,7 +7082,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7832,7 +7093,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -7845,7 +7105,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -7859,29 +7118,26 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/ngtcp2.c.obj: \
  _deps/curl-src/lib/vquic/ngtcp2.h \
  _deps/curl-src/lib/vquic/quiche.h \
  _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/vtls/keylog.h \
  _deps/curl-src/lib/wildcard.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.obj: \
  _deps/curl-src/lib/vquic/quiche.c \
- _deps/curl-src/lib/vquic/vquic.h \
  _deps/curl-build/lib/curl_config.h \
  _deps/curl-src/include/curl/curl.h \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -7897,7 +7153,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -7909,7 +7164,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -7922,7 +7176,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -7931,71 +7184,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/quiche.c.obj: \
  _deps/curl-src/lib/strcase.h \
  _deps/curl-src/lib/strdup.h \
  _deps/curl-src/lib/strerror.h \
- _deps/curl-src/lib/timeval.h \
- _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/vquic/ngtcp2.h \
- _deps/curl-src/lib/vquic/quiche.h \
- _deps/curl-src/lib/vssh/ssh.h \
- _deps/curl-src/lib/wildcard.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/vquic/vquic.c.obj: \
- _deps/curl-src/lib/vquic/vquic.c \
- _deps/curl-src/lib/vquic/vquic.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/mprintf.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h \
- _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/conncache.h \
- _deps/curl-src/lib/cookie.h \
- _deps/curl-src/lib/curl_addrinfo.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_printf.h \
- _deps/curl-src/lib/curl_sasl.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
- _deps/curl-src/lib/file.h \
- _deps/curl-src/lib/formdata.h \
- _deps/curl-src/lib/ftp.h \
- _deps/curl-src/lib/hash.h \
- _deps/curl-src/lib/hostip.h \
- _deps/curl-src/lib/http.h \
- _deps/curl-src/lib/http_chunks.h \
- _deps/curl-src/lib/imap.h \
- _deps/curl-src/lib/llist.h \
- _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
- _deps/curl-src/lib/multihandle.h \
- _deps/curl-src/lib/pingpong.h \
- _deps/curl-src/lib/pop3.h \
- _deps/curl-src/lib/psl.h \
- _deps/curl-src/lib/quic.h \
- _deps/curl-src/lib/rtsp.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
- _deps/curl-src/lib/smb.h \
- _deps/curl-src/lib/smtp.h \
- _deps/curl-src/lib/socketpair.h \
- _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/urldata.h \
  _deps/curl-src/lib/vquic/ngtcp2.h \
@@ -8011,18 +7199,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8039,7 +7226,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -8054,7 +7240,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8069,7 +7254,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8109,18 +7293,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8137,7 +7320,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/escape.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
@@ -8152,7 +7334,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8167,7 +7348,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/libssh2.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8206,18 +7386,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8234,7 +7413,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8246,7 +7424,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8260,7 +7437,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vssh/wolfssh.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8294,18 +7470,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8321,7 +7496,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8333,7 +7507,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.obj: \
  _deps/curl-src/lib/inet_pton.h \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8346,7 +7519,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/bearssl.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8377,18 +7549,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gskit.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8404,7 +7575,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gskit.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8416,7 +7586,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gskit.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/pingpong.h \
@@ -8428,7 +7597,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gskit.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8461,18 +7629,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8488,7 +7655,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8501,7 +7667,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8515,7 +7680,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8530,36 +7694,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/gtls.c.obj: \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-src/lib/wildcard.h \
  _deps/curl-src/lib/x509asn1.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/keylog.c.obj: \
- _deps/curl-src/lib/vtls/keylog.c \
- _deps/curl-src/lib/vtls/keylog.h \
- _deps/curl-build/lib/curl_config.h \
- _deps/curl-src/include/curl/curl.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/include/curl/easy.h \
- _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
- _deps/curl-src/include/curl/stdcheaders.h \
- _deps/curl-src/include/curl/system.h \
- _deps/curl-src/include/curl/typecheck-gcc.h \
- _deps/curl-src/include/curl/urlapi.h \
- _deps/curl-src/lib/config-amigaos.h \
- _deps/curl-src/lib/config-mac.h \
- _deps/curl-src/lib/config-os400.h \
- _deps/curl-src/lib/config-plan9.h \
- _deps/curl-src/lib/config-riscos.h \
- _deps/curl-src/lib/config-tpf.h \
- _deps/curl-src/lib/config-vxworks.h \
- _deps/curl-src/lib/config-win32.h \
- _deps/curl-src/lib/config-win32ce.h \
- _deps/curl-src/lib/curl_ctype.h \
- _deps/curl-src/lib/curl_memory.h \
- _deps/curl-src/lib/curl_setup.h \
- _deps/curl-src/lib/curl_setup_once.h \
- _deps/curl-src/lib/memdebug.h \
- _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.obj: \
  _deps/curl-src/lib/vtls/bearssl.h \
  _deps/curl-src/lib/vtls/gskit.h \
@@ -8580,18 +7714,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8607,7 +7740,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8620,7 +7752,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8634,7 +7765,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8655,7 +7785,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls_threadlock.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -8665,6 +7794,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls_threadlock.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8676,8 +7806,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mbedtls_threadlock.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
- _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h
+ _deps/curl-src/lib/setup-vms.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.obj: \
  _deps/curl-src/lib/vtls/bearssl.h \
  _deps/curl-src/lib/vtls/gskit.h \
@@ -8697,18 +7826,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8724,7 +7852,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8737,7 +7864,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/nonblock.h \
  _deps/curl-src/lib/parsedate.h \
@@ -8750,7 +7876,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/mesalink.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8783,18 +7908,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/nss.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8810,7 +7934,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/nss.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8822,7 +7945,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/nss.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -8835,7 +7957,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/nss.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -8855,7 +7976,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/openssl.c.obj: \
  _deps/curl-src/lib/vtls/bearssl.h \
  _deps/curl-src/lib/vtls/gskit.h \
  _deps/curl-src/lib/vtls/gtls.h \
- _deps/curl-src/lib/vtls/keylog.h \
  _deps/curl-src/lib/vtls/mbedtls.h \
  _deps/curl-src/lib/vtls/mesalink.h \
  _deps/curl-src/lib/vtls/nssg.h \
@@ -8871,19 +7991,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/openssl.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/amigaos.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8899,7 +8018,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/openssl.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -8913,7 +8031,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/openssl.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/non-ascii.h \
@@ -8927,7 +8044,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/openssl.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/slist.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
@@ -8963,18 +8079,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -8991,7 +8106,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -9004,7 +8118,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -9017,17 +8130,15 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-src/lib/splay.h \
- _deps/curl-src/lib/strcase.h \
  _deps/curl-src/lib/strerror.h \
+ _deps/curl-src/lib/system_win32.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/version_win32.h \
  _deps/curl-src/lib/vquic/ngtcp2.h \
  _deps/curl-src/lib/vquic/quiche.h \
  _deps/curl-src/lib/vssh/ssh.h \
@@ -9053,18 +8164,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9080,7 +8190,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -9093,7 +8202,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -9103,15 +8211,14 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/schannel_verify.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/strerror.h \
+ _deps/curl-src/lib/system_win32.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/urldata.h \
- _deps/curl-src/lib/version_win32.h \
  _deps/curl-src/lib/vquic/ngtcp2.h \
  _deps/curl-src/lib/vquic/quiche.h \
  _deps/curl-src/lib/vssh/ssh.h \
@@ -9135,18 +8242,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9163,7 +8269,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -9176,7 +8281,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -9189,7 +8293,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/sectransp.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -9222,18 +8325,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/vtls.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9251,7 +8353,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/vtls.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -9263,7 +8364,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/vtls.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/pingpong.h \
@@ -9275,7 +8375,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/vtls.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/share.h \
  _deps/curl-src/lib/slist.h \
  _deps/curl-src/lib/smb.h \
@@ -9283,7 +8382,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/vtls.c.obj: \
  _deps/curl-src/lib/socketpair.h \
  _deps/curl-src/lib/splay.h \
  _deps/curl-src/lib/strcase.h \
- _deps/curl-src/lib/strdup.h \
  _deps/curl-src/lib/timeval.h \
  _deps/curl-src/lib/url.h \
  _deps/curl-src/lib/urldata.h \
@@ -9296,7 +8394,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.obj: \
  _deps/curl-src/lib/vtls/bearssl.h \
  _deps/curl-src/lib/vtls/gskit.h \
  _deps/curl-src/lib/vtls/gtls.h \
- _deps/curl-src/lib/vtls/keylog.h \
  _deps/curl-src/lib/vtls/mbedtls.h \
  _deps/curl-src/lib/vtls/mesalink.h \
  _deps/curl-src/lib/vtls/nssg.h \
@@ -9312,18 +8409,17 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9339,7 +8435,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -9352,7 +8447,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/multiif.h \
  _deps/curl-src/lib/nonblock.h \
@@ -9366,7 +8460,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/vtls/wolfssl.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/sockaddr.h \
@@ -9386,6 +8479,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/warnless.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9395,7 +8489,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/warnless.c.obj: \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/warnless.c \
  _deps/curl-src/lib/warnless.h \
  _deps/curl-build/lib/curl_config.h \
@@ -9403,7 +8496,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/warnless.c.obj: \
  _deps/curl-src/include/curl/curlver.h \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
@@ -9414,6 +8506,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/wildcard.c.obj: \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9428,7 +8521,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/wildcard.c.obj: \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/wildcard.c \
  _deps/curl-src/lib/wildcard.h \
  _deps/curl-build/lib/curl_config.h \
@@ -9437,19 +8529,18 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/wildcard.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
 _deps/curl-build/lib/CMakeFiles/libcurl.dir/x509asn1.c.obj: \
  _deps/curl-src/lib/asyn.h \
- _deps/curl-src/lib/c-hyper.h \
  _deps/curl-src/lib/config-amigaos.h \
  _deps/curl-src/lib/config-mac.h \
  _deps/curl-src/lib/config-os400.h \
  _deps/curl-src/lib/config-plan9.h \
  _deps/curl-src/lib/config-riscos.h \
+ _deps/curl-src/lib/config-symbian.h \
  _deps/curl-src/lib/config-tpf.h \
  _deps/curl-src/lib/config-vxworks.h \
  _deps/curl-src/lib/config-win32.h \
@@ -9465,7 +8556,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/x509asn1.c.obj: \
  _deps/curl-src/lib/curl_setup.h \
  _deps/curl-src/lib/curl_setup_once.h \
  _deps/curl-src/lib/curl_sspi.h \
- _deps/curl-src/lib/dynbuf.h \
  _deps/curl-src/lib/file.h \
  _deps/curl-src/lib/formdata.h \
  _deps/curl-src/lib/ftp.h \
@@ -9479,7 +8569,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/x509asn1.c.obj: \
  _deps/curl-src/lib/llist.h \
  _deps/curl-src/lib/memdebug.h \
  _deps/curl-src/lib/mime.h \
- _deps/curl-src/lib/mqtt.h \
  _deps/curl-src/lib/multihandle.h \
  _deps/curl-src/lib/pingpong.h \
  _deps/curl-src/lib/pop3.h \
@@ -9489,7 +8578,6 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/x509asn1.c.obj: \
  _deps/curl-src/lib/sendf.h \
  _deps/curl-src/lib/setup-os400.h \
  _deps/curl-src/lib/setup-vms.h \
- _deps/curl-src/lib/setup-win32.h \
  _deps/curl-src/lib/smb.h \
  _deps/curl-src/lib/smtp.h \
  _deps/curl-src/lib/socketpair.h \
@@ -9520,12 +8608,7 @@ _deps/curl-build/lib/CMakeFiles/libcurl.dir/x509asn1.c.obj: \
  _deps/curl-src/include/curl/easy.h \
  _deps/curl-src/include/curl/mprintf.h \
  _deps/curl-src/include/curl/multi.h \
- _deps/curl-src/include/curl/options.h \
  _deps/curl-src/include/curl/stdcheaders.h \
  _deps/curl-src/include/curl/system.h \
  _deps/curl-src/include/curl/typecheck-gcc.h \
  _deps/curl-src/include/curl/urlapi.h
-_deps/curl-build/lib/CMakeFiles/libcurl.dir/libcurl.rc.obj: \
- C:/MinGW/include/winver.h \
- _deps/curl-src/include/curl/curlver.h \
- _deps/curl-src/lib/libcurl.rc

@@ -1,2 +1,0 @@
-C:\MinGW\bin\ar.exe qc libmongoose.a CMakeFiles/mongoose.dir/mongoose.c.obj
-C:\MinGW\bin\ranlib.exe libmongoose.a

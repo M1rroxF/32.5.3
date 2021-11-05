@@ -10,11 +10,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "CMakeLists.txt"
   "curl-populate-prefix/tmp/curl-populate-cfgcmd.txt.in"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeDetermineSystem.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystem.cmake.in"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
-  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/ExternalProject-download.cmake.in"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/ExternalProject-gitupdate.cmake.in"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/ExternalProject.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
@@ -29,8 +31,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "curl-populate-prefix/src/curl-populate-stamp/curl-populate-urlinfo.txt"
-  "curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake"
+  "CMakeFiles/3.20.2/CMakeSystem.cmake"
+  "curl-populate-prefix/src/curl-populate-stamp/curl-populate-gitinfo.txt"
+  "curl-populate-prefix/tmp/curl-populate-gitupdate.cmake"
   "curl-populate-prefix/tmp/curl-populate-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

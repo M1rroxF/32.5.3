@@ -2729,3 +2729,59 @@ Source file was:
         }
         return 0;
     }
+Determining if the function idn2_lookup_ul exists in the idn2;winmm;ws2_32;-lpthread;advapi32 failed with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4f663/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4f663.dir\build.make CMakeFiles/cmTC_4f663.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f663.dir/CheckFunctionExists.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul    -D_WINSOCKAPI_= -o CMakeFiles\cmTC_4f663.dir\CheckFunctionExists.c.obj -c "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\share\cmake-3.20\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_4f663.exe
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4f663.dir\link.txt --verbose=1
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4f663.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4f663.dir/objects.a @CMakeFiles\cmTC_4f663.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul -Wl,--whole-archive CMakeFiles\cmTC_4f663.dir/objects.a -Wl,--no-whole-archive -o cmTC_4f663.exe -Wl,--out-implib,libcmTC_4f663.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4f663.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lidn2
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_4f663.dir\build.make:99: recipe for target 'cmTC_4f663.exe' failed
+mingw32-make.exe[1]: *** [cmTC_4f663.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4f663/fast' failed
+mingw32-make.exe: *** [cmTC_4f663/fast] Error 2
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;des.h exist failed with the following output:
+Change Dir: D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a2f7b/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a2f7b.dir\build.make CMakeFiles/cmTC_a2f7b.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2f7b.dir/HAVE_DES_H.c.obj
+C:\MinGW\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_a2f7b.dir\HAVE_DES_H.c.obj -c D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c
+D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c:11:17: fatal error: des.h: No such file or directory
+ #include <des.h>
+                 ^
+compilation terminated.
+CMakeFiles\cmTC_a2f7b.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_a2f7b.dir/HAVE_DES_H.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_a2f7b.dir/HAVE_DES_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Programming/c++/skillbox/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a2f7b/fast' failed
+mingw32-make.exe: *** [cmTC_a2f7b/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <des.h>
+
+
+int main(void){return 0;}
+

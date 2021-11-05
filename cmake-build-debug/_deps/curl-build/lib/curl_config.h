@@ -1,24 +1,3 @@
-/***************************************************************************
- *                                  _   _ ____  _
- *  Project                     ___| | | |  _ \| |
- *                             / __| | | | |_) | |
- *                            | (__| |_| |  _ <| |___
- *                             \___|\___/|_| \_\_____|
- *
- * Copyright (C) 1998 - 2021, Daniel Stenberg, <daniel@haxx.se>, et al.
- *
- * This software is licensed as described in the file COPYING, which
- * you should have received as part of this distribution. The terms
- * are also available at https://curl.se/docs/copyright.html.
- *
- * You may opt to use, copy, modify, merge, publish, distribute and/or sell
- * copies of the Software, and permit persons to whom the Software is
- * furnished to do so, under the terms of the COPYING file.
- *
- * This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
- * KIND, either express or implied.
- *
- ***************************************************************************/
 /* lib/curl_config.h.in.  Generated somehow by cmake.  */
 
 /* when building libcurl itself */
@@ -62,9 +41,6 @@
 
 /* to disable LDAPS */
 #define CURL_DISABLE_LDAPS 1
-
-/* to disable MQTT */
-#define CURL_DISABLE_MQTT 1
 
 /* to disable POP3 */
 #define CURL_DISABLE_POP3 1
@@ -168,6 +144,9 @@
 
 /* Define to 1 if you have the <crypto.h> header file. */
 /* #undef HAVE_CRYPTO_H */
+
+/* Define to 1 if you have the <des.h> header file. */
+/* #undef HAVE_DES_H */
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 /* #undef HAVE_DLFCN_H */
@@ -395,11 +374,8 @@
 /* Define to 1 if you have the <libgen.h> header file. */
 #define HAVE_LIBGEN_H 1
 
-/* Define to 1 if you have the `idn2' library (-lidn2). */
-/* #undef HAVE_LIBIDN2 */
-
-/* Define to 1 if you have the idn2.h header file. */
-/* #undef HAVE_IDN2_H */
+/* Define to 1 if you have the `idn' library (-lidn). */
+/* #undef HAVE_LIBIDN */
 
 /* Define to 1 if you have the `resolv' library (-lresolv). */
 /* #undef HAVE_LIBRESOLV */
@@ -431,17 +407,11 @@
 /* Define to 1 if you have the <libssh2.h> header file. */
 /* #undef HAVE_LIBSSH2_H */
 
-/* Define to 1 if you have the <libssh/libssh.h> header file. */
-/* #undef HAVE_LIBSSH_LIBSSH_H */
-
 /* if zlib is available */
 #define HAVE_LIBZ 1
 
 /* if brotli is available */
 /* #undef HAVE_BROTLI */
-
-/* if zstd is available */
-/* #undef HAVE_ZSTD */
 
 /* if your compiler supports LL */
 #define HAVE_LL 1
@@ -472,9 +442,6 @@
 
 /* Define to 1 if you have the <netinet/tcp.h> header file. */
 /* #undef HAVE_NETINET_TCP_H */
-
-/* Define to 1 if you have the <linux/tcp.h> header file. */
-/* #undef HAVE_LINUX_TCP_H */
 
 /* Define to 1 if you have the <net/if.h> header file. */
 /* #undef HAVE_NET_IF_H */
@@ -978,12 +945,6 @@
 /* if BearSSL is enabled */
 /* #undef USE_BEARSSL */
 
-/* if WolfSSL is enabled */
-/* #undef USE_WOLFSSL */
-
-/* if libSSH is in use */
-/* #undef USE_LIBSSH */
-
 /* if libSSH2 is in use */
 /* #undef USE_LIBSSH2 */
 
@@ -1002,39 +963,20 @@
 /* if OpenSSL is in use */
 /* #undef USE_OPENSSL */
 
-/* Define to 1 if you don't want the OpenSSL configuration to be loaded
-   automatically */
-/* #undef CURL_DISABLE_OPENSSL_AUTO_LOAD_CONFIG */
-
 /* to enable NGHTTP2  */
 /* #undef USE_NGHTTP2 */
 
-/* to enable NGTCP2 */
-/* #undef USE_NGTCP2 */
-
-/* to enable NGHTTP3  */
-/* #undef USE_NGHTTP3 */
-
-/* to enable quiche */
-/* #undef USE_QUICHE */
-
-/* Define to 1 if you have the quiche_conn_set_qlog_fd function. */
-/* #undef HAVE_QUICHE_CONN_SET_QLOG_FD */
-
 /* if Unix domain sockets are enabled  */
 /* #undef USE_UNIX_SOCKETS */
-
-/* to disable alt-svc */
-/* #undef CURL_DISABLE_ALTSVC */
 
 /* Define to 1 if you are building a Windows target with large file support. */
 #define USE_WIN32_LARGE_FILES 1
 
 /* to enable SSPI support */
-#define USE_WINDOWS_SSPI 1
+/* #undef USE_WINDOWS_SSPI */
 
 /* to enable Windows SSL  */
-#define USE_SCHANNEL 1
+/* #undef USE_SCHANNEL */
 
 /* enable multiple SSL backends */
 /* #undef CURL_WITH_MULTI_SSL */

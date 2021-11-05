@@ -161,30 +161,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named skillBox
+# Target rules for targets named curl_test
 
 # Build rule for target.
-skillBox: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 skillBox
-.PHONY : skillBox
+curl_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 curl_test
+.PHONY : curl_test
 
 # fast build rule for target.
-skillBox/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\skillBox.dir\build.make CMakeFiles/skillBox.dir/build
-.PHONY : skillBox/fast
-
-#=============================================================================
-# Target rules for targets named zlib
-
-# Build rule for target.
-zlib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 zlib
-.PHONY : zlib
-
-# fast build rule for target.
-zlib/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\zlib-build\CMakeFiles\zlib.dir\build.make _deps/zlib-build/CMakeFiles/zlib.dir/build
-.PHONY : zlib/fast
+curl_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/build
+.PHONY : curl_test/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -213,71 +200,6 @@ libcurl/fast:
 .PHONY : libcurl/fast
 
 #=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock_main.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googlemock\CMakeFiles\gmock.dir\build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named mongoose
-
-# Build rule for target.
-mongoose: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mongoose
-.PHONY : mongoose
-
-# fast build rule for target.
-mongoose/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\mongoose-build\CMakeFiles\mongoose.dir\build.make _deps/mongoose-build/CMakeFiles/mongoose.dir/build
-.PHONY : mongoose/fast
-
-#=============================================================================
 # Target rules for targets named cpr
 
 # Build rule for target.
@@ -295,7 +217,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\skillBox.dir\build.make CMakeFiles/skillBox.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -303,7 +225,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\skillBox.dir\build.make CMakeFiles/skillBox.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -311,7 +233,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\skillBox.dir\build.make CMakeFiles/skillBox.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -328,14 +250,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... cpr
-	@echo ... gmock
-	@echo ... gmock_main
-	@echo ... gtest
-	@echo ... gtest_main
+	@echo ... curl_test
 	@echo ... libcurl
-	@echo ... mongoose
-	@echo ... skillBox
-	@echo ... zlib
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

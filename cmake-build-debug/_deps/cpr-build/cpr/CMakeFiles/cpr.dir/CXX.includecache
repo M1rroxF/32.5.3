@@ -10,10 +10,6 @@ D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/auth.cpp
 cpr/auth.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/auth.h
 
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/bearer.cpp
-cpr/bearer.h
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/bearer.h
-
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cookies.cpp
 cpr/cookies.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/cookies.h
@@ -26,15 +22,15 @@ algorithm
 cctype
 -
 
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/curl_container.cpp
-cpr/curl_container.h
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/curl_container.h
-
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/curlholder.cpp
 cpr/curlholder.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/curlholder.h
 cassert
 -
+
+D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/digest.cpp
+cpr/digest.h
+D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/digest.h
 
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/error.cpp
 cpr/error.h
@@ -45,6 +41,10 @@ curl/curl.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/multipart.cpp
 cpr/multipart.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/multipart.h
+
+D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/ntlm.cpp
+cpr/ntlm.h
+D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/ntlm.h
 
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/parameters.cpp
 cpr/parameters.h
@@ -78,10 +78,6 @@ string
 utility
 -
 
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/response.cpp
-cpr/response.h
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/response.h
-
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/session.cpp
 cpr/session.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/session.h
@@ -97,8 +93,8 @@ string
 -
 curl/curl.h
 -
-cpr/cprtypes.h
-D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/cprtypes.h
+cpr/curlholder.h
+D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/curlholder.h
 cpr/util.h
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cpr/util.h
 
@@ -109,9 +105,9 @@ limits
 -
 stdexcept
 -
-type_traits
--
 string
+-
+type_traits
 -
 
 D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/unix_socket.cpp
@@ -146,14 +142,6 @@ string
 utility
 -
 
-_deps/cpr-src/include/cpr/bearer.h
-string
--
-curl/curlver.h
--
-utility
--
-
 _deps/cpr-src/include/cpr/body.h
 initializer_list
 -
@@ -161,14 +149,6 @@ string
 -
 cpr/cprtypes.h
 _deps/cpr-src/include/cpr/cpr/cprtypes.h
-
-_deps/cpr-src/include/cpr/callback.h
-cprtypes.h
-_deps/cpr-src/include/cpr/cprtypes.h
-functional
--
-utility
--
 
 _deps/cpr-src/include/cpr/connect_timeout.h
 cpr/timeout.h
@@ -187,8 +167,6 @@ string
 -
 
 _deps/cpr-src/include/cpr/cprtypes.h
-curl/curl.h
--
 initializer_list
 -
 map
@@ -200,23 +178,7 @@ numeric
 string
 -
 
-_deps/cpr-src/include/cpr/curl_container.h
-initializer_list
--
-memory
--
-string
--
-vector
--
-cpr/curlholder.h
-_deps/cpr-src/include/cpr/cpr/curlholder.h
-
 _deps/cpr-src/include/cpr/curlholder.h
-array
--
-mutex
--
 string
 -
 curl/curl.h
@@ -261,20 +223,34 @@ vector
 -
 
 _deps/cpr-src/include/cpr/ntlm.h
-cpr/auth.h
-_deps/cpr-src/include/cpr/cpr/auth.h
+auth.h
+_deps/cpr-src/include/cpr/auth.h
+utility
+-
 
 _deps/cpr-src/include/cpr/parameters.h
 initializer_list
 -
-cpr/curl_container.h
-_deps/cpr-src/include/cpr/cpr/curl_container.h
+memory
+-
+string
+-
+cpr/curlholder.h
+_deps/cpr-src/include/cpr/cpr/curlholder.h
 
 _deps/cpr-src/include/cpr/payload.h
+cstdint
+-
 initializer_list
 -
-cpr/curl_container.h
-_deps/cpr-src/include/cpr/cpr/curl_container.h
+memory
+-
+string
+-
+cpr/curlholder.h
+_deps/cpr-src/include/cpr/cpr/curlholder.h
+utility
+-
 
 _deps/cpr-src/include/cpr/proxies.h
 initializer_list
@@ -283,21 +259,13 @@ map
 -
 string
 -
-
-_deps/cpr-src/include/cpr/response.h
-cassert
--
-cstdint
--
-curl/curl.h
--
-memory
--
-string
--
 utility
 -
-vector
+
+_deps/cpr-src/include/cpr/response.h
+cstdint
+-
+string
 -
 cpr/cookies.h
 _deps/cpr-src/include/cpr/cpr/cookies.h
@@ -305,10 +273,8 @@ cpr/cprtypes.h
 _deps/cpr-src/include/cpr/cpr/cprtypes.h
 cpr/error.h
 _deps/cpr-src/include/cpr/cpr/error.h
-cpr/ssl_options.h
-_deps/cpr-src/include/cpr/cpr/ssl_options.h
-cpr/util.h
-_deps/cpr-src/include/cpr/cpr/util.h
+utility
+-
 
 _deps/cpr-src/include/cpr/session.h
 cstdint
@@ -319,20 +285,14 @@ memory
 -
 cpr/auth.h
 _deps/cpr-src/include/cpr/cpr/auth.h
-cpr/bearer.h
-_deps/cpr-src/include/cpr/cpr/bearer.h
 cpr/body.h
 _deps/cpr-src/include/cpr/cpr/body.h
-cpr/callback.h
-_deps/cpr-src/include/cpr/cpr/callback.h
 cpr/connect_timeout.h
 _deps/cpr-src/include/cpr/cpr/connect_timeout.h
 cpr/cookies.h
 _deps/cpr-src/include/cpr/cpr/cookies.h
 cpr/cprtypes.h
 _deps/cpr-src/include/cpr/cpr/cprtypes.h
-cpr/curlholder.h
-_deps/cpr-src/include/cpr/cpr/curlholder.h
 cpr/digest.h
 _deps/cpr-src/include/cpr/cpr/digest.h
 cpr/limit_rate.h
@@ -397,16 +357,14 @@ string
 -
 vector
 -
-cpr/callback.h
-_deps/cpr-src/include/cpr/cpr/callback.h
-cpr/cookies.h
-_deps/cpr-src/include/cpr/cpr/cookies.h
 cpr/cprtypes.h
 _deps/cpr-src/include/cpr/cpr/cprtypes.h
 cpr/curlholder.h
 _deps/cpr-src/include/cpr/cpr/curlholder.h
 
 _deps/cpr-src/include/cpr/verbose.h
+cstdbool
+-
 
 _deps/curl-src/include/curl/curl.h
 curlver.h
@@ -441,8 +399,6 @@ multi.h
 _deps/curl-src/include/curl/multi.h
 urlapi.h
 _deps/curl-src/include/curl/urlapi.h
-options.h
-_deps/curl-src/include/curl/options.h
 typecheck-gcc.h
 _deps/curl-src/include/curl/typecheck-gcc.h
 
@@ -453,8 +409,6 @@ _deps/curl-src/include/curl/easy.h
 _deps/curl-src/include/curl/multi.h
 curl.h
 _deps/curl-src/include/curl/curl.h
-
-_deps/curl-src/include/curl/options.h
 
 _deps/curl-src/include/curl/system.h
 winsock2.h

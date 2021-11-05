@@ -81,6 +81,9 @@ CMakeFiles/curl-populate-complete: curl-populate-prefix/src/curl-populate-stamp/
 	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete
 	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done
 
+curl-populate-prefix/src/curl-populate-stamp/curl-populate-update:
+.PHONY : curl-populate-prefix/src/curl-populate-stamp/curl-populate-update
+
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-build: curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'curl-populate'"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-build && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
@@ -92,12 +95,10 @@ curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure: curl-popul
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-build && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-build && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure
 
-curl-populate-prefix/src/curl-populate-stamp/curl-populate-download: curl-populate-prefix/src/curl-populate-stamp/curl-populate-urlinfo.txt
+curl-populate-prefix/src/curl-populate-stamp/curl-populate-download: curl-populate-prefix/src/curl-populate-stamp/curl-populate-gitinfo.txt
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-download: curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'curl-populate'"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/download-curl-populate.cmake
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/verify-curl-populate.cmake
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/extract-curl-populate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'curl-populate'"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/tmp/curl-populate-gitclone.cmake
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-install: curl-populate-prefix/src/curl-populate-stamp/curl-populate-build
@@ -121,15 +122,17 @@ curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch: curl-populate-
 	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
 	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch
 
+curl-populate-prefix/src/curl-populate-stamp/curl-populate-update:
+.PHONY : curl-populate-prefix/src/curl-populate-stamp/curl-populate-update
+
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-test: curl-populate-prefix/src/curl-populate-stamp/curl-populate-install
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'curl-populate'"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-build && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-build && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test
 
 curl-populate-prefix/src/curl-populate-stamp/curl-populate-update: curl-populate-prefix/src/curl-populate-stamp/curl-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'curl-populate'"
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E echo_append
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E touch D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-subbuild\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'curl-populate'"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\curl-src && "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/tmp/curl-populate-gitupdate.cmake
 
 curl-populate: CMakeFiles/curl-populate
 curl-populate: CMakeFiles/curl-populate-complete

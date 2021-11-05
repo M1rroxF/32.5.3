@@ -9,11 +9,18 @@ cmake_minimum_required(VERSION 3.20.2)
 
 project(curl-populate NONE)
 
+# Pass through things we've already detected in the main project to avoid
+# paying the cost of redetecting them again in ExternalProject_Add()
+set(GIT_EXECUTABLE [==[C:/Program Files/Git/cmd/git.exe]==])
+set(GIT_VERSION_STRING [==[2.33.1.windows.1]==])
+set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
+  [==[C:/Program Files/Git/cmd/git.exe;2.33.1.windows.1]==]
+)
 
 
 include(ExternalProject)
 ExternalProject_Add(curl-populate
-                     "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/curl/curl/releases/download/curl-7_75_0/curl-7.75.0.tar.xz" "URL_HASH" "SHA256=fe0c49d8468249000bda75bcfdf9e30ff7e9a86d35f1a21f428d79c389d55675"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/curl/curl.git" "GIT_TAG" "curl-7_69_1"
                     SOURCE_DIR          "D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src"
                     BINARY_DIR          "D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-build"
                     CONFIGURE_COMMAND   ""

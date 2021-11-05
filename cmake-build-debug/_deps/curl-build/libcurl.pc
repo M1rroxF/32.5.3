@@ -5,11 +5,11 @@
 #                            | (__| |_| |  _ <| |___
 #                             \___|\___/|_| \_\_____|
 #
-# Copyright (C) 1998 - 2020, Daniel Stenberg, <daniel@haxx.se>, et al.
+# Copyright (C) 1998 - 2012, Daniel Stenberg, <daniel@haxx.se>, et al.
 #
 # This software is licensed as described in the file COPYING, which
 # you should have received as part of this distribution. The terms
-# are also available at https://curl.se/docs/copyright.html.
+# are also available at https://curl.haxx.se/docs/copyright.html.
 #
 # You may opt to use, copy, modify, merge, publish, distribute and/or sell
 # copies of the Software, and permit persons to whom the Software is
@@ -27,13 +27,13 @@ prefix=C:/Program Files (x86)/skillbox
 exec_prefix=${prefix}
 libdir=C:/Program Files (x86)/skillbox/lib
 includedir=${prefix}/include
-supported_protocols="HTTP HTTPS"
-supported_features="SSL IPv6 libz AsynchDNS SSPI alt-svc SPNEGO Kerberos NTLM"
+supported_protocols="HTTP"
+supported_features="IPv6 libz AsynchDNS NTLM"
 
 Name: libcurl
-URL: https://curl.se/
+URL: https://curl.haxx.se/
 Description: Library to transfer files with ftp, http, etc.
-Version: 7.75.0
-Libs: -L${libdir} -lcurl 
-Libs.private:  -lmingw32 -lgcc -lmoldname -lmingwex -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -lpthread -ladvapi32 -lcrypt32 C:/MinGW/lib/libz.dll.a
+Version: 7.69.1-DEV
+Libs: -L${libdir} -lcurl
+Libs.private:  -lmingw32 -lgcc -lmoldname -lmingwex -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -lpthread -ladvapi32 -lZLIB::ZLIB
 Cflags: -I${includedir} 

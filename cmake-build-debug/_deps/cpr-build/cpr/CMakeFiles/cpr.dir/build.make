@@ -79,24 +79,10 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/auth.cpp.s"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\auth.cpp -o CMakeFiles\cpr.dir\auth.cpp.s
 
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj: _deps/cpr-src/cpr/bearer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\bearer.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\bearer.cpp
-
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/bearer.cpp.i"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\bearer.cpp > CMakeFiles\cpr.dir\bearer.cpp.i
-
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/bearer.cpp.s"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\bearer.cpp -o CMakeFiles\cpr.dir\bearer.cpp.s
-
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj: _deps/cpr-src/cpr/cookies.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\cookies.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\cookies.cpp
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.i: cmake_force
@@ -110,7 +96,7 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.s: cmake_force
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj: _deps/cpr-src/cpr/cprtypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\cprtypes.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\cprtypes.cpp
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.i: cmake_force
@@ -121,24 +107,10 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/cprtypes.cpp.s"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\cprtypes.cpp -o CMakeFiles\cpr.dir\cprtypes.cpp.s
 
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj: _deps/cpr-src/cpr/curl_container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\curl_container.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\curl_container.cpp
-
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/curl_container.cpp.i"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\curl_container.cpp > CMakeFiles\cpr.dir\curl_container.cpp.i
-
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/curl_container.cpp.s"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\curl_container.cpp -o CMakeFiles\cpr.dir\curl_container.cpp.s
-
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj: _deps/cpr-src/cpr/curlholder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\curlholder.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\curlholder.cpp
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.i: cmake_force
@@ -149,10 +121,24 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/curlholder.cpp.s"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\curlholder.cpp -o CMakeFiles\cpr.dir\curlholder.cpp.s
 
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj: _deps/cpr-src/cpr/digest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\digest.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\digest.cpp
+
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/digest.cpp.i"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\digest.cpp > CMakeFiles\cpr.dir\digest.cpp.i
+
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/digest.cpp.s"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\digest.cpp -o CMakeFiles\cpr.dir\digest.cpp.s
+
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj: _deps/cpr-src/cpr/error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\error.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\error.cpp
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.i: cmake_force
@@ -166,7 +152,7 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.s: cmake_force
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj: _deps/cpr-src/cpr/multipart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\multipart.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\multipart.cpp
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.i: cmake_force
@@ -176,6 +162,20 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.i: cmake_force
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/multipart.cpp.s"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\multipart.cpp -o CMakeFiles\cpr.dir\multipart.cpp.s
+
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj: _deps/cpr-src/cpr/ntlm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\ntlm.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\ntlm.cpp
+
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/ntlm.cpp.i"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\ntlm.cpp > CMakeFiles\cpr.dir\ntlm.cpp.i
+
+_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/ntlm.cpp.s"
+	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\ntlm.cpp -o CMakeFiles\cpr.dir\ntlm.cpp.s
 
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
 _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
@@ -275,50 +275,35 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/util.cpp.s"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\util.cpp -o CMakeFiles\cpr.dir\util.cpp.s
 
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/flags.make
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/includes_CXX.rsp
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj: _deps/cpr-src/cpr/response.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cpr.dir\response.cpp.obj -c D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\response.cpp
-
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpr.dir/response.cpp.i"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\response.cpp > CMakeFiles\cpr.dir\response.cpp.i
-
-_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpr.dir/response.cpp.s"
-	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-src\cpr\response.cpp -o CMakeFiles\cpr.dir\response.cpp.s
-
 # Object files for target cpr
 cpr_OBJECTS = \
 "CMakeFiles/cpr.dir/auth.cpp.obj" \
-"CMakeFiles/cpr.dir/bearer.cpp.obj" \
 "CMakeFiles/cpr.dir/cookies.cpp.obj" \
 "CMakeFiles/cpr.dir/cprtypes.cpp.obj" \
-"CMakeFiles/cpr.dir/curl_container.cpp.obj" \
 "CMakeFiles/cpr.dir/curlholder.cpp.obj" \
+"CMakeFiles/cpr.dir/digest.cpp.obj" \
 "CMakeFiles/cpr.dir/error.cpp.obj" \
 "CMakeFiles/cpr.dir/multipart.cpp.obj" \
+"CMakeFiles/cpr.dir/ntlm.cpp.obj" \
 "CMakeFiles/cpr.dir/parameters.cpp.obj" \
 "CMakeFiles/cpr.dir/payload.cpp.obj" \
 "CMakeFiles/cpr.dir/proxies.cpp.obj" \
 "CMakeFiles/cpr.dir/session.cpp.obj" \
 "CMakeFiles/cpr.dir/timeout.cpp.obj" \
 "CMakeFiles/cpr.dir/unix_socket.cpp.obj" \
-"CMakeFiles/cpr.dir/util.cpp.obj" \
-"CMakeFiles/cpr.dir/response.cpp.obj"
+"CMakeFiles/cpr.dir/util.cpp.obj"
 
 # External object files for target cpr
 cpr_EXTERNAL_OBJECTS =
 
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj
-libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj
-libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj
+libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj
+libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj
@@ -326,14 +311,13 @@ libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj
-libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build.make
-libcpr.dll: _deps/curl-build/lib/libcurl-d_imp.lib
+libcpr.dll: lib/libcurl-d_imp.lib
 libcpr.dll: C:/MinGW/lib/libz.dll.a
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/linklibs.rsp
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/objects1.rsp
 libcpr.dll: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library ..\..\..\libcpr.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\c++\skillbox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ..\..\..\libcpr.dll"
 	cd /d D:\Programming\c++\skillbox\cmake-build-debug\_deps\cpr-build\cpr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cpr.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -20,7 +20,7 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(cpr-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libcpr/cpr.git" "GIT_TAG" "f4622efcb59d84071ae11404ae61bd821c1c344b"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/whoshuu/cpr.git" "GIT_TAG" "c8d33915dbd88ad6c92b258869b03aba06587ff9"
                     SOURCE_DIR          "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src"
                     BINARY_DIR          "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build"
                     CONFIGURE_COMMAND   ""

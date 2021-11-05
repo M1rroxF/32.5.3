@@ -9,16 +9,16 @@
 # The variable CVF_VERSION must be set before calling configure_file().
 
 
-set(PACKAGE_VERSION "7.75.0")
+set(PACKAGE_VERSION "7.69.1-DEV")
 
 if(PACKAGE_VERSION VERSION_LESS PACKAGE_FIND_VERSION)
   set(PACKAGE_VERSION_COMPATIBLE FALSE)
 else()
 
-  if("7.75.0" MATCHES "^([0-9]+)\\.")
+  if("7.69.1-DEV" MATCHES "^([0-9]+)\\.")
     set(CVF_VERSION_MAJOR "${CMAKE_MATCH_1}")
   else()
-    set(CVF_VERSION_MAJOR "7.75.0")
+    set(CVF_VERSION_MAJOR "7.69.1-DEV")
   endif()
 
   if(PACKAGE_FIND_VERSION_RANGE)

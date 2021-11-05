@@ -9,17 +9,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/auth.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj"
-  "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/bearer.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/bearer.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cookies.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/cprtypes.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj"
-  "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/curl_container.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/curlholder.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj"
+  "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/digest.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/digest.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/error.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/multipart.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj"
+  "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/ntlm.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ntlm.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/parameters.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/payload.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/proxies.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj"
-  "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/response.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/session.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/timeout.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj"
   "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/unix_socket.cpp" "D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj"
@@ -29,8 +28,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "CPR_BUILD_TESTS"
-  "CPR_ENABLE_SSL"
   "cpr_EXPORTS"
   )
 

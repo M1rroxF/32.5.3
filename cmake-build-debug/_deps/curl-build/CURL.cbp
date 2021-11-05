@@ -5,7 +5,7 @@
 		<Option title="CURL"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\curl-src\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\Platforms\;CMake Files\cmake-build-debug\_deps\curl-src\lib\;CMake Files\cmake-build-debug\_deps\curl-build\;CMake Files\cmake-build-debug\_deps\curl-build\lib\;CMake Files\cmake-build-debug\_deps\cpr-src\;CMake Files\cmake-build-debug\_deps\cpr-src\cmake\;CMake Files\cmake-build-debug\_deps\cpr-src\cpr\;CMake Files\cmake-build-debug\_deps\cpr-src\include\;CMake Files\cmake-build-debug\_deps\zlib-src\;CMake Files\cmake-build-debug\_deps\zlib-src\cmake\;CMake Files\cmake-build-debug\_deps\zlib-build\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;CMake Files\cmake-build-debug\_deps\mongoose-src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\curl-src\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\;CMake Files\cmake-build-debug\_deps\curl-src\CMake\Platforms\;CMake Files\cmake-build-debug\_deps\curl-src\lib\;CMake Files\cmake-build-debug\_deps\curl-build\;CMake Files\cmake-build-debug\_deps\curl-build\lib\;CMake Files\cmake-build-debug\_deps\cpr-src\;CMake Files\cmake-build-debug\_deps\cpr-src\cmake\;CMake Files\cmake-build-debug\_deps\cpr-src\cpr\;CMake Files\cmake-build-debug\_deps\cpr-src\include\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-build"/>
@@ -36,8 +36,6 @@
 				<Compiler>
 					<Add option="-DBUILDING_LIBCURL"/>
 					<Add option="-DCURL_HIDDEN_SYMBOLS"/>
-					<Add option="-DCPR_ENABLE_SSL"/>
-					<Add option="-DCPR_BUILD_TESTS"/>
 					<Add option="-D_WIN32_WINNT=0x0600"/>
 					<Add option="-DHAVE_CONFIG_H"/>
 					<Add option="-D_USRDLL"/>
@@ -72,8 +70,6 @@
 				<Compiler>
 					<Add option="-DBUILDING_LIBCURL"/>
 					<Add option="-DCURL_HIDDEN_SYMBOLS"/>
-					<Add option="-DCPR_ENABLE_SSL"/>
-					<Add option="-DCPR_BUILD_TESTS"/>
 					<Add option="-D_WIN32_WINNT=0x0600"/>
 					<Add option="-DHAVE_CONFIG_H"/>
 					<Add option="-D_USRDLL"/>
@@ -128,12 +124,6 @@
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/base64.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/c-hyper.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/c-hyper.h">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/conncache.c">
@@ -214,9 +204,6 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_hmac.h">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_krb5.h">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_ldap.h">
 			<Option target="libcurl"/>
 		</Unit>
@@ -280,6 +267,9 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_sasl.h">
 			<Option target="libcurl"/>
 		</Unit>
+		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_sec.h">
+			<Option target="libcurl"/>
+		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_setup.h">
 			<Option target="libcurl"/>
 		</Unit>
@@ -322,25 +312,10 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/dotdot.h">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/dynbuf.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/dynbuf.h">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/easy.c">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/easygetopt.c">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/easyif.h">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/easyoptions.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/easyoptions.h">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/escape.c">
@@ -427,12 +402,6 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/hostsyn.c">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/hsts.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/hsts.h">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/http.c">
 			<Option target="libcurl"/>
 		</Unit>
@@ -443,12 +412,6 @@
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/http2.h">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/http_aws_sigv4.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/http_aws_sigv4.h">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/http_chunks.c">
@@ -514,9 +477,6 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/ldap.c">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/libcurl.rc">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/llist.c">
 			<Option target="libcurl"/>
 		</Unit>
@@ -542,12 +502,6 @@
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/mprintf.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/mqtt.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/mqtt.h">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/multi.c">
@@ -629,6 +583,9 @@
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/rtsp.h">
+			<Option target="libcurl"/>
+		</Unit>
+		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/security.c">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/select.c">
@@ -838,12 +795,6 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/version.c">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/version_win32.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/version_win32.h">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vquic/ngtcp2.c">
 			<Option target="libcurl"/>
 		</Unit>
@@ -856,12 +807,6 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vquic/quiche.h">
 			<Option target="libcurl"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vquic/vquic.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vquic/vquic.h">
-			<Option target="libcurl"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vssh/libssh.c">
 			<Option target="libcurl"/>
 		</Unit>
@@ -872,6 +817,9 @@
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vssh/wolfssh.c">
+			<Option target="libcurl"/>
+		</Unit>
+		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vssh/wolfssh.h">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vtls/bearssl.c">
@@ -890,12 +838,6 @@
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vtls/gtls.h">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vtls/keylog.c">
-			<Option target="libcurl"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vtls/keylog.h">
 			<Option target="libcurl"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/vtls/mbedtls.c">
@@ -1012,9 +954,6 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/Makefile.inc">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/curl-src/lib/curl_config.h.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\curl-src\lib\"/>
 		</Unit>
@@ -1027,68 +966,11 @@
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cmake/code_coverage.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cmake/gcc_analyze.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cmake/sanitizer.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cmake/zlib_external.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cmake\"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/cpr/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\cpr\"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/cpr-src/include/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cpr-src\include\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/zlib-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/zlib-src/zlib.pc.cmakein">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.c">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/zlib-src/cmake/detect-arch.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/zlib-src/cmake/detect-sanitizer.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-src\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/zlib-build/zconf.h.cmakein">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\zlib-build\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skillbox/cmake-build-debug/_deps/mongoose-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\mongoose-src\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
