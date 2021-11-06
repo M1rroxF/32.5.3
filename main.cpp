@@ -1,24 +1,51 @@
 #include <iostream>
+#include <vector>
 #include <cpr/cpr.h>
 
 using namespace std;
 
+string get(const vector<cpr::Pair>& vec)
+{
+    string txt = "?";
+    txt += vec[0].key + "=" + vec[0].value;
+    for (int i = 1; i < vec.size(); i++)
+    {
+        txt += "&" + vec[i].key + "=" + vec[i].value;
+    }
+    return txt;
+}
+
 int main()
 {
-    cpr::Response r = cpr::Get(cpr::Url( "http://httpbin.org/put"), cpr::Header({{"accept", "text/html"}}));
+    vector<cpr::Pair> var;
 
-    for (int i = 4; i < r.text.length(); i++)
-    {
-        if (r.text[i-1] == '>' &&
-            r.text[i-2] == '1' &&
-            r.text[i-3] == 'h' &&
-            r.text[i-4] == '<')
+    string text_1;
+
+    do {
+        cin >> text_1;
+        if (text_1 != "get" && text_1 != "post")
         {
-            while (r.text[i] != '<')
-            {
-                cout << r.text[i];
-                i++;
-            }
+            string text_2;
+
+            cin >> text_2;
+
+            cpr::Pair s{"", ""};
+            s.key = text_1;
+            s.value = text_2;
+            var.push_back(s);
+        }
+    } while (text_1 != "get" && text_1 != "post");
+
+    if (text_1 == "get")
+    {
+        cout << cpr::Get(cpr::Url( "http://httpbin.org/get" + get(var) )).text;
+    }
+    else
+    {
+        for (int i = 0; i < var.size(); i++)
+        {
+        cout << cpr::Post(cpr::Url( "http://httpbin.org/post" ),
+                          cpr::Payload({{var[i].key.c_str(), var[i].value.c_str()}}) ).text;
         }
     }
 }
