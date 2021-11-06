@@ -5,17 +5,20 @@ using namespace std;
 
 int main()
 {
-    string txt;
-    while (txt != "exit")
+    cpr::Response r = cpr::Get(cpr::Url( "http://httpbin.org/put"), cpr::Header({{"accept", "text/html"}}));
+
+    for (int i = 4; i < r.text.length(); i++)
     {
-        cin >> txt;
-        if (txt == "get")
-            cout << cpr::Get(cpr::Url("http://httpbin.org/get")).text;
-        else if (txt == "post")
-            cout << cpr::Post(cpr::Url("http://httpbin.org/post")).text;
-        else if (txt == "put")
-            cout << cpr::Put(cpr::Url("http://httpbin.org/put")).text;
-        else if (txt == "delete")
-            cout << cpr::Delete(cpr::Url("http://httpbin.org/delete")).text;
+        if (r.text[i-1] == '>' &&
+            r.text[i-2] == '1' &&
+            r.text[i-3] == 'h' &&
+            r.text[i-4] == '<')
+        {
+            while (r.text[i] != '<')
+            {
+                cout << r.text[i];
+                i++;
+            }
+        }
     }
 }
