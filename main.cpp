@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <initializer_list>
 #include <cpr/cpr.h>
 
 using namespace std;
@@ -17,7 +18,10 @@ string get(const vector<cpr::Pair>& vec)
 
 int main()
 {
+
+
     vector<cpr::Pair> var;
+    cpr::CurlHolder f;
 
     string text_1;
 
@@ -36,16 +40,14 @@ int main()
         }
     } while (text_1 != "get" && text_1 != "post");
 
+
+
     if (text_1 == "get")
     {
         cout << cpr::Get(cpr::Url( "http://httpbin.org/get" + get(var) )).text;
     }
     else
     {
-        for (int i = 0; i < var.size(); i++)
-        {
-        cout << cpr::Post(cpr::Url( "http://httpbin.org/post" ),
-                          cpr::Payload({{var[i].key.c_str(), var[i].value.c_str()}}) ).text;
-        }
+        cout << cpr::Post(cpr::Url( "http://httpbin.org/post" ), cpr::Payload(var.begin(), var.end())).text;
     }
 }
