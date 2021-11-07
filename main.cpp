@@ -18,11 +18,7 @@ string get(const vector<cpr::Pair>& vec)
 
 int main()
 {
-
-
     vector<cpr::Pair> var;
-    cpr::CurlHolder f;
-
     string text_1;
 
     do {
