@@ -64,30 +64,6 @@ CMAKE_BINARY_DIR = D:\Programming\c++\skillbox\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -107,27 +83,6 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -161,80 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named curl_test
+# Target rules for targets named skillbox
 
 # Build rule for target.
-curl_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 curl_test
-.PHONY : curl_test
+skillbox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 skillbox
+.PHONY : skillbox
 
 # fast build rule for target.
-curl_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/build
-.PHONY : curl_test/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\CMakeFiles\uninstall.dir\build.make _deps/curl-build/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named libcurl
-
-# Build rule for target.
-libcurl: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libcurl
-.PHONY : libcurl
-
-# fast build rule for target.
-libcurl/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\curl-build\lib\CMakeFiles\libcurl.dir\build.make _deps/curl-build/lib/CMakeFiles/libcurl.dir/build
-.PHONY : libcurl/fast
-
-#=============================================================================
-# Target rules for targets named cpr
-
-# Build rule for target.
-cpr: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cpr
-.PHONY : cpr
-
-# fast build rule for target.
-cpr/fast:
-	$(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build
-.PHONY : cpr/fast
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\curl_test.dir\build.make CMakeFiles/curl_test.dir/main.cpp.s
-.PHONY : main.cpp.s
+skillbox/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\skillbox.dir\build.make src/CMakeFiles/skillbox.dir/build
+.PHONY : skillbox/fast
 
 # Help Target
 help:
@@ -243,18 +135,8 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... install
-	@echo ... install/local
-	@echo ... install/strip
-	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... uninstall
-	@echo ... cpr
-	@echo ... curl_test
-	@echo ... libcurl
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... skillbox
 .PHONY : help
 
 

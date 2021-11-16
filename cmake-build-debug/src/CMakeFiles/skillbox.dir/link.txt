@@ -1,0 +1,3 @@
+"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\skillbox.dir/objects.a
+C:\minGWx64\mingw64\bin\ar.exe cr CMakeFiles\skillbox.dir/objects.a @CMakeFiles\skillbox.dir\objects1.rsp
+C:\minGWx64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\skillbox.dir/objects.a -Wl,--no-whole-archive -o skillbox.exe -Wl,--out-implib,libskillbox.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\skillbox.dir\linklibs.rsp
