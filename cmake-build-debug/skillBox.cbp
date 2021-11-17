@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Programming/c++/skillbox/include/Graphs.h">
+			<Option target="skillbox"/>
+		</Unit>
 		<Unit filename="D:/Programming/c++/skillbox/src/main.cpp">
 			<Option target="skillbox"/>
 		</Unit>

@@ -1,18 +1,14 @@
 #include <iostream>
-#include "Toy.h"
-#include "Dog.h"
-
+#include "Graphs.h"
 using namespace std;
-int main(){
-    SharedPtrToy ball("ball");
-    SharedPtrToy bone("bone");
 
-    Dog mrFirz("Firz", &ball);
-    Dog mrKruz("Kruz", &bone);
+int main()
+{
+    Graph graph;
+    graph.AddEdge(3, 4);
+    graph.AddEdge(3, 5);
+    graph.AddEdge(7, 1);
+    graph.AddEdge(5, 7);
 
-    bone.reset();
-    ball.reset();
-
-    mrKruz.print();
-    mrKruz.loseToy();
+    graph.printGraph();
 }

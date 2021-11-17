@@ -6,31 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/Dog.h
+../include/Graphs.h
 iostream
--
-string
--
-utility
--
-Toy.h
-../include/Toy.h
-
-../include/Toy.h
-iostream
--
-utility
 -
 vector
--
-thread
 -
 
 D:/Programming/c++/skillbox/src/main.cpp
 iostream
 -
-Toy.h
-D:/Programming/c++/skillbox/src/Toy.h
-Dog.h
-D:/Programming/c++/skillbox/src/Dog.h
+Graphs.h
+D:/Programming/c++/skillbox/src/Graphs.h
 
