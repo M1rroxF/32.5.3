@@ -45,8 +45,13 @@ class Graph : public virtual IGraph
         for (auto& i : vec) if (i.empty()) i.resize(1);
         // дописываем элементы
         for (int i = 0; i < vec.size(); i++) vec[i][0] = i+1;
-    }void AddEdge(int from, int to) final
+    }
+    void AddEdge(int from, int to) final
     {
+        // проверка на наличие элемента. если присутствует то выходим из функции
+        if (listGraph.size() > from) for (auto& i : listGraph[from-1]) if (i == to) return;
+        // если хотим провести путь к к одной точке
+        if (from == to) return;
         // матрица
         {
             resizeMatrixVector(matrixGraph, from, to); // меняем размер
@@ -66,16 +71,16 @@ class Graph : public virtual IGraph
 
     void GetNextVertices(int vertex, vector<int> &vertices) final
     {
-        for (int i = 1; i < listGraph[vertex].size(); i++) vertices.push_back(listGraph[vertex][i]); // добавляем всё из листа
+        for (int i = 1; i < listGraph[vertex-1].size(); i++) vertices.push_back(listGraph[vertex-1][i]); // добавляем всё из листа
     }
 
     void GetPrevVertices(int vertex, vector<int> &vertices) final
     {
-        bool h = true;
         for (int i = 0; i < listGraph.size(); i++){
-            for (int j = 1; j < listGraph[i].size() && h; j++)
+            bool fx = true;
+            for (int j = 1; j < listGraph[i].size() && fx; j++)
             {
-                if (listGraph[i][j] == vertex) {vertices.push_back(listGraph[i][0]); h = false;}
+                if (listGraph[i][j] == vertex) { vertices.push_back(listGraph[i][0]); fx = false; }
             }
         }
     }
