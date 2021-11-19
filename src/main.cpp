@@ -2,30 +2,19 @@
 #include "Graphs.h"
 using namespace std;
 
-int main()
-{
-    Graph graph;
+int main() {
+    MatrixGraph g1(0);
 
-    // что бы не вводить значения
-    graph.AddEdge(3, 4);
-    graph.AddEdge(3, 5);
-    graph.AddEdge(7, 1);
-    graph.AddEdge(5, 7);
-    graph.AddEdge(5, 7);
-    graph.AddEdge(4, 3);
-    graph.AddEdge(2, 3);
-    graph.AddEdge(6, 5);
-    graph.AddEdge(1, 6);
-    graph.AddEdge(1, 3);
+    g1.AddEdge(1, 2);
+    g1.AddEdge(1, 4);
+    g1.AddEdge(1, 2);
+    g1.AddEdge(100, 100);
+    g1.AddEdge(100, 100);
+    g1.AddEdge(-1, 1);
 
-    graph.printGraph();
+    ListGraph g2;
+    g2 = g1;
 
-    cout << "-+-+-+-+-+-+-+-+-+-\n";
-
-    vector<int> f1, f2;
-    graph.GetNextVertices(3, f1); // 3 -> f1[i]
-    graph.GetPrevVertices(3, f2); // f2[i] -> 3
-
-    for (int i : f1) cout << i << " "; cout << "- Next with 3" << endl;
-    for (int i : f2) cout << i << " "; cout << "- Prev with 3" << endl;
+    g1.print();
+    g2.print();
 }
