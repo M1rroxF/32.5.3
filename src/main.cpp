@@ -3,18 +3,13 @@
 using namespace std;
 
 int main() {
-    MatrixGraph g1(0);
+    MatrixGraph g2;
+    g2.AddEdge(3, 5);
+    g2.AddEdge(3, 6);
+    g2.AddEdge(2, 3);
 
-    g1.AddEdge(1, 2);
-    g1.AddEdge(1, 4);
-    g1.AddEdge(1, 2);
-    g1.AddEdge(100, 100);
-    g1.AddEdge(100, 100);
-    g1.AddEdge(-1, 1);
-
-    ListGraph g2;
-    g2 = g1;
-
+    ListGraph g1;
+    g1 = g2;
     g1.print();
     g2.print();
 }
