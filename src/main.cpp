@@ -3,7 +3,7 @@
 #include "nlohmann/json.hpp"
 using namespace std;
 
-#define DATA_DIR "D:\\programming\\c++\\skillbox\\data\\"
+#define DATA_DIR "Enter your the path to the file"
 
 int main() {
     nlohmann::json dir;
