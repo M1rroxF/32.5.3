@@ -12,6 +12,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
+  "../nlohmann_json/CMakeLists.txt"
+  "../nlohmann_json/cmake/config.cmake.in"
+  "../nlohmann_json/cmake/nlohmann_jsonConfigVersion.cmake.in"
+  "../nlohmann_json/cmake/pkg-config.pc.in"
   "../src/CMakeLists.txt"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeCInformation.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeCXXInformation.cmake"
@@ -21,6 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeGenericSystem.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeRCInformation.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -28,6 +33,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-C.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/ExternalProject.cmake"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/GNUInstallDirs.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -37,6 +44,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake"
+  "D:/bestProgs/CLion/CLion 2021.1.2/bin/cmake/win/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake"
   )
 
 # The corresponding makefile is:
@@ -48,6 +56,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "nlohmann_json/nlohmann_json.pc"
+  "nlohmann_json/nlohmann_jsonConfigVersion.cmake"
+  "nlohmann_json/nlohmann_jsonConfig.cmake"
+  "nlohmann_json/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
