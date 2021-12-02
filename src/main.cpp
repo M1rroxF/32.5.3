@@ -3,7 +3,7 @@
 #include "nlohmann/json.hpp"
 using namespace std;
 
-#define DATA_DIR "D:\\programming\\c++\\skillbox\\data\\"
+#define DATA_DIR "Enter your"
 
 int main() {
     nlohmann::json dir;
@@ -11,37 +11,45 @@ int main() {
             "2 - search\n";
     int i; cin >> i;
     if (i == 1) {
-        cout << "Enter film name:\n"; cin.ignore();
-        string filmName;
-        getline(cin, filmName);
+        for (int j = 0; j < 5; j++) {
+            cout << "Enter film name:\n";
+            cin.ignore();
+            string filmName;
+            getline(cin, filmName);
 
-        string text;
-        cout << "studio: "; cin >> text;
-        dir[filmName]["studio"] = text;
+            string text;
+            cout << "studio: ";
+            cin >> text;
+            dir[filmName]["studio"] = text;
 
-        cout << "date: "; cin >> text;
-        dir[filmName]["date"] = text;
+            cout << "date: ";
+            cin >> text;
+            dir[filmName]["date"] = text;
 
-        cout << "author: "; cin >> text;
-        dir[filmName]["author"] = text;
+            cout << "author: ";
+            cin >> text;
+            dir[filmName]["author"] = text;
 
-        cout << "director: "; cin >> text;
-        dir[filmName]["director"] = text;
+            cout << "director: ";
+            cin >> text;
+            dir[filmName]["director"] = text;
 
-        cout << "producer: "; cin >> text;
-        dir[filmName]["producer"] = text;
+            cout << "producer: ";
+            cin >> text;
+            dir[filmName]["producer"] = text;
 
 
-        do {
-            // main character and actor or ext:(text) (text_2)
-            cout << "main character and actor or ext: "; cin >> text;
-            if (text != "ext") {
-                string text_2;
-                cin >> text_2;
-                dir[filmName]["main characters"][text] = text_2;
-            }
-        } while (text != "ext");
-
+            do {
+                // main character and actor or ext:(text) (text_2)
+                cout << "main character and actor or ext: ";
+                cin >> text;
+                if (text != "ext") {
+                    string text_1, text_2;
+                    cin >> text_1 >> text_2;
+                    dir[filmName]["main characters"][text][text_1] = text_2;
+                }
+            } while (text != "ext");
+        }
         ofstream file(DATA_DIR "fsonr.txt");
         file << dir;
         file.close();
@@ -51,22 +59,16 @@ int main() {
         file >> dir;
         file.close();
 
-        auto it = dir.begin();
-        const string& filmName = it.key();
-
-        cout << "1 - actor\n"
-                "2 - character\n";
-        cin >> i;
-
         string searchName;
-        cout << "Enter " << (i == 1 ? "actor: " : "character: ");
+        cout << "Enter search name: ";
         cin >> searchName;
 
-        for (it = dir[filmName]["main characters"].begin(); it != dir[filmName]["main characters"].end(); it++) {
-            if (i == 1 && it.value() == searchName) {
-                cout << it.key() << " - " << it.value() << endl;
-            } else if (i == 2 && it.key() == searchName){
-                cout << it.key() << " - " << it.value() << endl;
+        for (auto it_1 = dir.begin(); it_1 != dir.end(); it_1++) {
+            for (auto it_2 = dir[it_1.key()]["main characters"].begin(); it_2 != dir[it_1.key()]["main characters"].end(); it_2++) {
+                if (    it_2.key() == searchName ||
+                        it_2.value().begin().key() == searchName ||
+                        it_2.value().begin().value() == searchName)
+                    cout << it_2.key() << " " << it_2.value().begin().key() << " " << it_2.value().begin().value() << endl;
             }
         }
     }

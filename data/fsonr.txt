@@ -1,1 +1,0 @@
-{"ragnarek":{"author":"Snaya","date":"28.07.988","director":"jeck","main characters":{"Dog":"Jeck","Tor":"Sanya","Tree":"Anton"},"producer":"Anton","studio":"MarvelOfSanya"}}
