@@ -3,11 +3,7 @@
 #include "nlohmann/json.hpp"
 using namespace std;
 
-<<<<<<< HEAD
 #define DATA_DIR "Enter your your the path to the file"
-=======
-#define DATA_DIR "Enter your the path to the file"
->>>>>>> c3cff02e1b6318dcd31d2a05f3743ad2473f78d2
 
 int main() {
     nlohmann::json dir;
